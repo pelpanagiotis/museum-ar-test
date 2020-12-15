@@ -1,0 +1,12 @@
+module GLTFSceneKit {
+  umbrella header "GLTFSceneKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+
+module GLTFSceneKit.Swift {
+  header "/Users/ppeltekis/Desktop/iOS Projects/e-Scapani/Museum AR App/Build/Products/Debug-iphoneos/GLTFSceneKit/Swift Compatibility Header/GLTFSceneKit-Swift.h"
+  requires objc
+}

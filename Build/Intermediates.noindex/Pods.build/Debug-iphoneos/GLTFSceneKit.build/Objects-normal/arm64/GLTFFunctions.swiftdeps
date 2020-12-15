@@ -1,0 +1,1142 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "add"
+- "sub"
+- "mul"
+- "div"
+- "cross"
+- "length"
+- "normalize"
+- "createNormal"
+- "createVertexArray"
+- "createIndexArray"
+- "createKeyTimeArray"
+- "createColor"
+- "createGrayColor"
+- "createVector3"
+- "createVector4"
+- "createVector4ForOrientation"
+- "createMatrix4"
+- "loadImageFile"
+- "loadImageData"
+- "getMetallicRoughnessTexture"
+- "getMetallicRoughnessTexture"
+provides-nominal:
+provides-member:
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- "*"
+- "+"
+- "+="
+- !private "-"
+- "..<"
+- "/"
+- !private "=="
+- !private ">"
+- !private ">="
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CFData"
+- !private "CFDataCreate"
+- "CFTimeInterval"
+- !private "CGBitmapInfo"
+- !private "CGColorRenderingIntent"
+- !private "CGColorSpaceCreateDeviceGray"
+- !private "CGColorSpaceCreateDeviceRGB"
+- !private "CGContext"
+- !private "CGDataProvider"
+- "CGFloat"
+- "CGImage"
+- !private "CGImageAlphaInfo"
+- !private "CGRect"
+- "CastingPrecedence"
+- "Data"
+- "Float"
+- "Float32"
+- !private "FloatLiteralType"
+- !private "GLTFUnarchiveError"
+- "Image"
+- "Int"
+- !private "IntegerLiteralType"
+- "NSNumber"
+- "SCNFloat"
+- "SCNGeometryElement"
+- "SCNGeometrySource"
+- "SCNMatrix4"
+- "SCNVector3"
+- "SCNVector4"
+- "SKColor"
+- !private "StringLiteralType"
+- "UIImage"
+- "UInt16"
+- "UInt32"
+- "UInt64"
+- !private "UInt8"
+- "URL"
+- "UnsafeMutableRawPointer"
+- "UnsafePointer"
+- "add"
+- !private "assert"
+- "createColor"
+- "createGrayColor"
+- "createIndexArray"
+- "createKeyTimeArray"
+- "createMatrix4"
+- "createNormal"
+- "createVector3"
+- "createVector4"
+- "createVector4ForOrientation"
+- "createVertexArray"
+- "cross"
+- "div"
+- !private "free"
+- "getMetallicRoughnessTexture"
+- "length"
+- "loadImageData"
+- "loadImageFile"
+- !private "malloc"
+- "mul"
+- "normalize"
+- !private "print"
+- !private "sqrtf"
+- "sub"
+- !private "||"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "init"]
+- !private ["Sa", "last"]
+- !private ["Sa", "map"]
+- !private ["Sa", "reserveCapacity"]
+- !private ["Sa", "subscript"]
+- !private ["Sa", "withUnsafeMutableBufferPointer"]
+- !private ["SK", ""]
+- !private ["SK", "append"]
+- !private ["SK", "copyBytes"]
+- !private ["SK", "count"]
+- !private ["SK", "distance"]
+- !private ["SK", "endIndex"]
+- !private ["SK", "formIndex"]
+- !private ["SK", "index"]
+- !private ["SK", "indices"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "last"]
+- !private ["SK", "map"]
+- !private ["SK", "pointee"]
+- !private ["SK", "reserveCapacity"]
+- !private ["SK", "startIndex"]
+- !private ["SK", "subdata"]
+- !private ["SK", "subscript"]
+- !private ["SK", "withUnsafeBytes"]
+- !private ["SK", "withUnsafeMutableBufferPointer"]
+- !private ["SB", "binade"]
+- !private ["SB", "exponentBitCount"]
+- !private ["SB", "exponentBitPattern"]
+- !private ["SB", "init"]
+- !private ["SB", "isTotallyOrdered"]
+- !private ["SB", "radix"]
+- !private ["SB", "significandBitCount"]
+- !private ["SB", "significandBitPattern"]
+- !private ["SB", "significandWidth"]
+- !private ["Sz", ""]
+- !private ["Sz", "init"]
+- !private ["So12CGBitmapInfoV", "ArrayLiteralElement"]
+- !private ["So12CGBitmapInfoV", "Element"]
+- !private ["So12CGBitmapInfoV", "RawValue"]
+- !private ["So12CGBitmapInfoV", "init"]
+- !private ["So22CGColorRenderingIntentV", "defaultIntent"]
+- !private ["So12CGContextRefa", "draw"]
+- !private ["So12CGContextRefa", "init"]
+- !private ["So17CGDataProviderRefa", "init"]
+- !private ["12CoreGraphics7CGFloatV", "init"]
+- !private ["So10CGImageRefa", "height"]
+- !private ["So10CGImageRefa", "init"]
+- !private ["So10CGImageRefa", "width"]
+- !private ["So16CGImageAlphaInfoV", "RawValue"]
+- !private ["So16CGImageAlphaInfoV", "none"]
+- !private ["So16CGImageAlphaInfoV", "noneSkipLast"]
+- !private ["So16CGImageAlphaInfoV", "rawValue"]
+- !private ["So6CGRectV", "init"]
+- !private ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "bytesPerComponent"]
+- !private ["s7CVarArgP", "bytesPerIndex"]
+- !private ["s7CVarArgP", "cgImage"]
+- !private ["s7CVarArgP", "componentsPerVector"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "dataOffset"]
+- !private ["s7CVarArgP", "dataStride"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "last"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "pointee"]
+- !private ["s7CVarArgP", "primitiveCount"]
+- !private ["s7CVarArgP", "reserveCapacity"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "usesFloatComponents"]
+- !private ["s7CVarArgP", "vectorCount"]
+- !private ["s7CVarArgP", "withUnsafeMutableBufferPointer"]
+- !private ["Sl", ""]
+- !private ["Sl", "_customIndexOfEquatableElement"]
+- !private ["Sl", "_customLastIndexOfEquatableElement"]
+- !private ["Sl", "_failEarlyRangeCheck"]
+- !private ["Sl", "append"]
+- !private ["Sl", "copyBytes"]
+- !private ["Sl", "count"]
+- !private ["Sl", "distance"]
+- !private ["Sl", "endIndex"]
+- !private ["Sl", "formIndex"]
+- !private ["Sl", "index"]
+- !private ["Sl", "indices"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "last"]
+- !private ["Sl", "makeIterator"]
+- !private ["Sl", "map"]
+- !private ["Sl", "pointee"]
+- !private ["Sl", "reserveCapacity"]
+- !private ["Sl", "startIndex"]
+- !private ["Sl", "subdata"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "withUnsafeBytes"]
+- !private ["Sl", "withUnsafeMutableBufferPointer"]
+- !private ["SL", ""]
+- !private ["SL", "bindMemory"]
+- !private ["SL", "init"]
+- !private ["SL", "pointee"]
+- !private ["SL", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "copyBytes"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "last"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["10Foundation15ContiguousBytesP", "pointee"]
+- !private ["10Foundation15ContiguousBytesP", "reserveCapacity"]
+- !private ["10Foundation15ContiguousBytesP", "startIndex"]
+- !private ["10Foundation15ContiguousBytesP", "subdata"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "withUnsafeBytes"]
+- !private ["10Foundation15ContiguousBytesP", "withUnsafeMutableBufferPointer"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "bindMemory"]
+- !private ["s28CustomDebugStringConvertibleP", "bytesPerComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "bytesPerIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "cgImage"]
+- !private ["s28CustomDebugStringConvertibleP", "componentsPerVector"]
+- !private ["s28CustomDebugStringConvertibleP", "copyBytes"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "dataOffset"]
+- !private ["s28CustomDebugStringConvertibleP", "dataStride"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "last"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "pointee"]
+- !private ["s28CustomDebugStringConvertibleP", "primitiveCount"]
+- !private ["s28CustomDebugStringConvertibleP", "reserveCapacity"]
+- !private ["s28CustomDebugStringConvertibleP", "startIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "subdata"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "usesFloatComponents"]
+- !private ["s28CustomDebugStringConvertibleP", "vectorCount"]
+- !private ["s28CustomDebugStringConvertibleP", "withUnsafeBytes"]
+- !private ["s28CustomDebugStringConvertibleP", "withUnsafeMutableBufferPointer"]
+- !private ["s17CustomReflectableP", ""]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "bindMemory"]
+- !private ["s17CustomReflectableP", "copyBytes"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "last"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "pointee"]
+- !private ["s17CustomReflectableP", "reserveCapacity"]
+- !private ["s17CustomReflectableP", "startIndex"]
+- !private ["s17CustomReflectableP", "subdata"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "withUnsafeBytes"]
+- !private ["s17CustomReflectableP", "withUnsafeMutableBufferPointer"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "bytesPerComponent"]
+- !private ["s23CustomStringConvertibleP", "bytesPerIndex"]
+- !private ["s23CustomStringConvertibleP", "cgImage"]
+- !private ["s23CustomStringConvertibleP", "componentsPerVector"]
+- !private ["s23CustomStringConvertibleP", "copyBytes"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "dataOffset"]
+- !private ["s23CustomStringConvertibleP", "dataStride"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "last"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "primitiveCount"]
+- !private ["s23CustomStringConvertibleP", "reserveCapacity"]
+- !private ["s23CustomStringConvertibleP", "startIndex"]
+- !private ["s23CustomStringConvertibleP", "subdata"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "usesFloatComponents"]
+- !private ["s23CustomStringConvertibleP", "vectorCount"]
+- !private ["s23CustomStringConvertibleP", "withUnsafeBytes"]
+- !private ["s23CustomStringConvertibleP", "withUnsafeMutableBufferPointer"]
+- !private ["10Foundation4DataV", "copyBytes"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["10Foundation4DataV", "startIndex"]
+- !private ["10Foundation4DataV", "subdata"]
+- !private ["10Foundation4DataV", "withUnsafeBytes"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "copyBytes"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "last"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["10Foundation12DataProtocolP", "pointee"]
+- !private ["10Foundation12DataProtocolP", "reserveCapacity"]
+- !private ["10Foundation12DataProtocolP", "startIndex"]
+- !private ["10Foundation12DataProtocolP", "subdata"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "withUnsafeBytes"]
+- !private ["10Foundation12DataProtocolP", "withUnsafeMutableBufferPointer"]
+- !private ["Se", "append"]
+- !private ["Se", "copyBytes"]
+- !private ["Se", "count"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "last"]
+- !private ["Se", "map"]
+- !private ["Se", "reserveCapacity"]
+- !private ["Se", "startIndex"]
+- !private ["Se", "subdata"]
+- !private ["Se", "subscript"]
+- !private ["Se", "withUnsafeBytes"]
+- !private ["Se", "withUnsafeMutableBufferPointer"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["Sd", "init"]
+- !private ["SE", "append"]
+- !private ["SE", "copyBytes"]
+- !private ["SE", "count"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "last"]
+- !private ["SE", "map"]
+- !private ["SE", "reserveCapacity"]
+- !private ["SE", "startIndex"]
+- !private ["SE", "subdata"]
+- !private ["SE", "subscript"]
+- !private ["SE", "withUnsafeBytes"]
+- !private ["SE", "withUnsafeMutableBufferPointer"]
+- !private ["SQ", "ArrayLiteralElement"]
+- !private ["SQ", "Element"]
+- !private ["SQ", "RawValue"]
+- !private ["SQ", ""]
+- !private ["SQ", "append"]
+- !private ["SQ", "bindMemory"]
+- !private ["SQ", "bytesPerComponent"]
+- !private ["SQ", "bytesPerIndex"]
+- !private ["SQ", "cgImage"]
+- !private ["SQ", "componentsPerVector"]
+- !private ["SQ", "copyBytes"]
+- !private ["SQ", "count"]
+- !private ["SQ", "data"]
+- !private ["SQ", "dataOffset"]
+- !private ["SQ", "dataStride"]
+- !private ["SQ", "defaultIntent"]
+- !private ["SQ", "draw"]
+- !private ["SQ", "height"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "last"]
+- !private ["SQ", "map"]
+- !private ["SQ", "none"]
+- !private ["SQ", "noneSkipLast"]
+- !private ["SQ", "pointee"]
+- !private ["SQ", "primitiveCount"]
+- !private ["SQ", "rawValue"]
+- !private ["SQ", "reserveCapacity"]
+- !private ["SQ", "startIndex"]
+- !private ["SQ", "subdata"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "usesFloatComponents"]
+- !private ["SQ", "vectorCount"]
+- !private ["SQ", "width"]
+- !private ["SQ", "withUnsafeBytes"]
+- !private ["SQ", "withUnsafeMutableBufferPointer"]
+- !private ["s5ErrorP", "NotSupported"]
+- !private ["s5ErrorP", "Unknown"]
+- !private ["s5ErrorP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "ArrayLiteralElement"]
+- !private ["s25ExpressibleByArrayLiteralP", "Element"]
+- !private ["s25ExpressibleByArrayLiteralP", "RawValue"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "last"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "reserveCapacity"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "withUnsafeMutableBufferPointer"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s25ExpressibleByFloatLiteralP", "FloatLiteralType"]
+- !private ["s25ExpressibleByFloatLiteralP", ""]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["Sf", "init"]
+- !private ["SF", "*"]
+- !private ["SF", "*="]
+- !private ["SF", "+"]
+- !private ["SF", "+="]
+- !private ["SF", "-"]
+- !private ["SF", "-="]
+- !private ["SF", "/"]
+- !private ["SF", "/="]
+- !private ["SF", ""]
+- !private ["SF", "addProduct"]
+- !private ["SF", "addingProduct"]
+- !private ["SF", "exponent"]
+- !private ["SF", "floatingPointClass"]
+- !private ["SF", "formRemainder"]
+- !private ["SF", "formSquareRoot"]
+- !private ["SF", "formTruncatingRemainder"]
+- !private ["SF", "greatestFiniteMagnitude"]
+- !private ["SF", "infinity"]
+- !private ["SF", "init"]
+- !private ["SF", "isCanonical"]
+- !private ["SF", "isEqual"]
+- !private ["SF", "isFinite"]
+- !private ["SF", "isInfinite"]
+- !private ["SF", "isLess"]
+- !private ["SF", "isLessThanOrEqualTo"]
+- !private ["SF", "isNaN"]
+- !private ["SF", "isNormal"]
+- !private ["SF", "isSignalingNaN"]
+- !private ["SF", "isSubnormal"]
+- !private ["SF", "isTotallyOrdered"]
+- !private ["SF", "isZero"]
+- !private ["SF", "leastNonzeroMagnitude"]
+- !private ["SF", "leastNormalMagnitude"]
+- !private ["SF", "maximum"]
+- !private ["SF", "maximumMagnitude"]
+- !private ["SF", "minimum"]
+- !private ["SF", "minimumMagnitude"]
+- !private ["SF", "nan"]
+- !private ["SF", "negate"]
+- !private ["SF", "nextDown"]
+- !private ["SF", "nextUp"]
+- !private ["SF", "pi"]
+- !private ["SF", "radix"]
+- !private ["SF", "remainder"]
+- !private ["SF", "round"]
+- !private ["SF", "rounded"]
+- !private ["SF", "sign"]
+- !private ["SF", "signalingNaN"]
+- !private ["SF", "significand"]
+- !private ["SF", "squareRoot"]
+- !private ["SF", "truncatingRemainder"]
+- !private ["SF", "ulp"]
+- !private ["SF", "ulpOfOne"]
+- !private ["12GLTFSceneKit18GLTFUnarchiveErrorO", "NotSupported"]
+- !private ["12GLTFSceneKit18GLTFUnarchiveErrorO", "Unknown"]
+- !private ["12GLTFSceneKit18GLTFUnarchiveErrorO", ""]
+- !private ["SH", "RawValue"]
+- !private ["SH", ""]
+- !private ["SH", "append"]
+- !private ["SH", "bindMemory"]
+- !private ["SH", "bytesPerComponent"]
+- !private ["SH", "bytesPerIndex"]
+- !private ["SH", "cgImage"]
+- !private ["SH", "componentsPerVector"]
+- !private ["SH", "copyBytes"]
+- !private ["SH", "count"]
+- !private ["SH", "data"]
+- !private ["SH", "dataOffset"]
+- !private ["SH", "dataStride"]
+- !private ["SH", "defaultIntent"]
+- !private ["SH", "draw"]
+- !private ["SH", "height"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "last"]
+- !private ["SH", "map"]
+- !private ["SH", "none"]
+- !private ["SH", "noneSkipLast"]
+- !private ["SH", "pointee"]
+- !private ["SH", "primitiveCount"]
+- !private ["SH", "rawValue"]
+- !private ["SH", "reserveCapacity"]
+- !private ["SH", "startIndex"]
+- !private ["SH", "subdata"]
+- !private ["SH", "subscript"]
+- !private ["SH", "usesFloatComponents"]
+- !private ["SH", "vectorCount"]
+- !private ["SH", "width"]
+- !private ["SH", "withUnsafeBytes"]
+- !private ["SH", "withUnsafeMutableBufferPointer"]
+- !private ["Si", "init"]
+- !private ["10Foundation14LocalizedErrorP", "NotSupported"]
+- !private ["10Foundation14LocalizedErrorP", "Unknown"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", ""]
+- !private ["SM", "append"]
+- !private ["SM", "copyBytes"]
+- !private ["SM", "count"]
+- !private ["SM", "init"]
+- !private ["SM", "init"]
+- !private ["SM", "last"]
+- !private ["SM", "map"]
+- !private ["SM", "reserveCapacity"]
+- !private ["SM", "startIndex"]
+- !private ["SM", "subdata"]
+- !private ["SM", "subscript"]
+- !private ["SM", "withUnsafeBytes"]
+- !private ["SM", "withUnsafeMutableBufferPointer"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "copyBytes"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "last"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "reserveCapacity"]
+- !private ["10Foundation19MutableDataProtocolP", "startIndex"]
+- !private ["10Foundation19MutableDataProtocolP", "subdata"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "withUnsafeBytes"]
+- !private ["10Foundation19MutableDataProtocolP", "withUnsafeMutableBufferPointer"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "bytesPerComponent"]
+- !private ["So8NSCodingP", "bytesPerIndex"]
+- !private ["So8NSCodingP", "cgImage"]
+- !private ["So8NSCodingP", "componentsPerVector"]
+- !private ["So8NSCodingP", "data"]
+- !private ["So8NSCodingP", "dataOffset"]
+- !private ["So8NSCodingP", "dataStride"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "numberWithBool"]
+- !private ["So8NSCodingP", "numberWithChar"]
+- !private ["So8NSCodingP", "numberWithDouble"]
+- !private ["So8NSCodingP", "numberWithFloat"]
+- !private ["So8NSCodingP", "numberWithInt"]
+- !private ["So8NSCodingP", "numberWithInteger"]
+- !private ["So8NSCodingP", "numberWithLong"]
+- !private ["So8NSCodingP", "numberWithLongLong"]
+- !private ["So8NSCodingP", "numberWithShort"]
+- !private ["So8NSCodingP", "numberWithUnsignedChar"]
+- !private ["So8NSCodingP", "numberWithUnsignedInt"]
+- !private ["So8NSCodingP", "numberWithUnsignedInteger"]
+- !private ["So8NSCodingP", "numberWithUnsignedLong"]
+- !private ["So8NSCodingP", "numberWithUnsignedLongLong"]
+- !private ["So8NSCodingP", "numberWithUnsignedShort"]
+- !private ["So8NSCodingP", "primitiveCount"]
+- !private ["So8NSCodingP", "usesFloatComponents"]
+- !private ["So8NSCodingP", "vectorCount"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "numberWithBool"]
+- !private ["So9NSCopyingP", "numberWithChar"]
+- !private ["So9NSCopyingP", "numberWithDouble"]
+- !private ["So9NSCopyingP", "numberWithFloat"]
+- !private ["So9NSCopyingP", "numberWithInt"]
+- !private ["So9NSCopyingP", "numberWithInteger"]
+- !private ["So9NSCopyingP", "numberWithLong"]
+- !private ["So9NSCopyingP", "numberWithLongLong"]
+- !private ["So9NSCopyingP", "numberWithShort"]
+- !private ["So9NSCopyingP", "numberWithUnsignedChar"]
+- !private ["So9NSCopyingP", "numberWithUnsignedInt"]
+- !private ["So9NSCopyingP", "numberWithUnsignedInteger"]
+- !private ["So9NSCopyingP", "numberWithUnsignedLong"]
+- !private ["So9NSCopyingP", "numberWithUnsignedLongLong"]
+- !private ["So9NSCopyingP", "numberWithUnsignedShort"]
+- !private ["So21NSItemProviderReadingP", "cgImage"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "cgImage"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So8NSNumberC", "init"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "bytesPerComponent"]
+- !private ["So8NSObjectC", "bytesPerIndex"]
+- !private ["So8NSObjectC", "cgImage"]
+- !private ["So8NSObjectC", "colorNamed"]
+- !private ["So8NSObjectC", "colorWithCGColor"]
+- !private ["So8NSObjectC", "colorWithCIColor"]
+- !private ["So8NSObjectC", "colorWithDisplayP3Red"]
+- !private ["So8NSObjectC", "colorWithDynamicProvider"]
+- !private ["So8NSObjectC", "colorWithHue"]
+- !private ["So8NSObjectC", "colorWithPatternImage"]
+- !private ["So8NSObjectC", "colorWithRed"]
+- !private ["So8NSObjectC", "colorWithWhite"]
+- !private ["So8NSObjectC", "componentsPerVector"]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectC", "dataOffset"]
+- !private ["So8NSObjectC", "dataStride"]
+- !private ["So8NSObjectC", "imageNamed"]
+- !private ["So8NSObjectC", "imageWithCGImage"]
+- !private ["So8NSObjectC", "imageWithCIImage"]
+- !private ["So8NSObjectC", "imageWithContentsOfFile"]
+- !private ["So8NSObjectC", "imageWithData"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "jpegData"]
+- !private ["So8NSObjectC", "numberWithBool"]
+- !private ["So8NSObjectC", "numberWithChar"]
+- !private ["So8NSObjectC", "numberWithDouble"]
+- !private ["So8NSObjectC", "numberWithFloat"]
+- !private ["So8NSObjectC", "numberWithInt"]
+- !private ["So8NSObjectC", "numberWithInteger"]
+- !private ["So8NSObjectC", "numberWithLong"]
+- !private ["So8NSObjectC", "numberWithLongLong"]
+- !private ["So8NSObjectC", "numberWithShort"]
+- !private ["So8NSObjectC", "numberWithUnsignedChar"]
+- !private ["So8NSObjectC", "numberWithUnsignedInt"]
+- !private ["So8NSObjectC", "numberWithUnsignedInteger"]
+- !private ["So8NSObjectC", "numberWithUnsignedLong"]
+- !private ["So8NSObjectC", "numberWithUnsignedLongLong"]
+- !private ["So8NSObjectC", "numberWithUnsignedShort"]
+- !private ["So8NSObjectC", "pngData"]
+- !private ["So8NSObjectC", "primitiveCount"]
+- !private ["So8NSObjectC", "systemImageNamed"]
+- !private ["So8NSObjectC", "usesFloatComponents"]
+- !private ["So8NSObjectC", "value"]
+- !private ["So8NSObjectC", "valueWithBytes"]
+- !private ["So8NSObjectC", "valueWithCATransform3D"]
+- !private ["So8NSObjectC", "valueWithCGAffineTransform"]
+- !private ["So8NSObjectC", "valueWithCGPoint"]
+- !private ["So8NSObjectC", "valueWithCGRect"]
+- !private ["So8NSObjectC", "valueWithCGSize"]
+- !private ["So8NSObjectC", "valueWithCGVector"]
+- !private ["So8NSObjectC", "valueWithDirectionalEdgeInsets"]
+- !private ["So8NSObjectC", "valueWithNonretainedObject"]
+- !private ["So8NSObjectC", "valueWithPointer"]
+- !private ["So8NSObjectC", "valueWithRange"]
+- !private ["So8NSObjectC", "valueWithSCNMatrix4"]
+- !private ["So8NSObjectC", "valueWithSCNVector3"]
+- !private ["So8NSObjectC", "valueWithSCNVector4"]
+- !private ["So8NSObjectC", "valueWithUIEdgeInsets"]
+- !private ["So8NSObjectC", "valueWithUIOffset"]
+- !private ["So8NSObjectC", "vectorCount"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "bytesPerComponent"]
+- !private ["So8NSObjectP", "bytesPerIndex"]
+- !private ["So8NSObjectP", "cgImage"]
+- !private ["So8NSObjectP", "colorNamed"]
+- !private ["So8NSObjectP", "colorWithCGColor"]
+- !private ["So8NSObjectP", "colorWithCIColor"]
+- !private ["So8NSObjectP", "colorWithDisplayP3Red"]
+- !private ["So8NSObjectP", "colorWithDynamicProvider"]
+- !private ["So8NSObjectP", "colorWithHue"]
+- !private ["So8NSObjectP", "colorWithPatternImage"]
+- !private ["So8NSObjectP", "colorWithRed"]
+- !private ["So8NSObjectP", "colorWithWhite"]
+- !private ["So8NSObjectP", "componentsPerVector"]
+- !private ["So8NSObjectP", "data"]
+- !private ["So8NSObjectP", "dataOffset"]
+- !private ["So8NSObjectP", "dataStride"]
+- !private ["So8NSObjectP", "imageNamed"]
+- !private ["So8NSObjectP", "imageWithCGImage"]
+- !private ["So8NSObjectP", "imageWithCIImage"]
+- !private ["So8NSObjectP", "imageWithContentsOfFile"]
+- !private ["So8NSObjectP", "imageWithData"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "jpegData"]
+- !private ["So8NSObjectP", "numberWithBool"]
+- !private ["So8NSObjectP", "numberWithChar"]
+- !private ["So8NSObjectP", "numberWithDouble"]
+- !private ["So8NSObjectP", "numberWithFloat"]
+- !private ["So8NSObjectP", "numberWithInt"]
+- !private ["So8NSObjectP", "numberWithInteger"]
+- !private ["So8NSObjectP", "numberWithLong"]
+- !private ["So8NSObjectP", "numberWithLongLong"]
+- !private ["So8NSObjectP", "numberWithShort"]
+- !private ["So8NSObjectP", "numberWithUnsignedChar"]
+- !private ["So8NSObjectP", "numberWithUnsignedInt"]
+- !private ["So8NSObjectP", "numberWithUnsignedInteger"]
+- !private ["So8NSObjectP", "numberWithUnsignedLong"]
+- !private ["So8NSObjectP", "numberWithUnsignedLongLong"]
+- !private ["So8NSObjectP", "numberWithUnsignedShort"]
+- !private ["So8NSObjectP", "pngData"]
+- !private ["So8NSObjectP", "primitiveCount"]
+- !private ["So8NSObjectP", "systemImageNamed"]
+- !private ["So8NSObjectP", "usesFloatComponents"]
+- !private ["So8NSObjectP", "value"]
+- !private ["So8NSObjectP", "valueWithBytes"]
+- !private ["So8NSObjectP", "valueWithCATransform3D"]
+- !private ["So8NSObjectP", "valueWithCGAffineTransform"]
+- !private ["So8NSObjectP", "valueWithCGPoint"]
+- !private ["So8NSObjectP", "valueWithCGRect"]
+- !private ["So8NSObjectP", "valueWithCGSize"]
+- !private ["So8NSObjectP", "valueWithCGVector"]
+- !private ["So8NSObjectP", "valueWithDirectionalEdgeInsets"]
+- !private ["So8NSObjectP", "valueWithNonretainedObject"]
+- !private ["So8NSObjectP", "valueWithPointer"]
+- !private ["So8NSObjectP", "valueWithRange"]
+- !private ["So8NSObjectP", "valueWithSCNMatrix4"]
+- !private ["So8NSObjectP", "valueWithSCNVector3"]
+- !private ["So8NSObjectP", "valueWithSCNVector4"]
+- !private ["So8NSObjectP", "valueWithUIEdgeInsets"]
+- !private ["So8NSObjectP", "valueWithUIOffset"]
+- !private ["So8NSObjectP", "vectorCount"]
+- !private ["So14NSSecureCodingP", "bytesPerComponent"]
+- !private ["So14NSSecureCodingP", "bytesPerIndex"]
+- !private ["So14NSSecureCodingP", "cgImage"]
+- !private ["So14NSSecureCodingP", "componentsPerVector"]
+- !private ["So14NSSecureCodingP", "data"]
+- !private ["So14NSSecureCodingP", "dataOffset"]
+- !private ["So14NSSecureCodingP", "dataStride"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "numberWithBool"]
+- !private ["So14NSSecureCodingP", "numberWithChar"]
+- !private ["So14NSSecureCodingP", "numberWithDouble"]
+- !private ["So14NSSecureCodingP", "numberWithFloat"]
+- !private ["So14NSSecureCodingP", "numberWithInt"]
+- !private ["So14NSSecureCodingP", "numberWithInteger"]
+- !private ["So14NSSecureCodingP", "numberWithLong"]
+- !private ["So14NSSecureCodingP", "numberWithLongLong"]
+- !private ["So14NSSecureCodingP", "numberWithShort"]
+- !private ["So14NSSecureCodingP", "numberWithUnsignedChar"]
+- !private ["So14NSSecureCodingP", "numberWithUnsignedInt"]
+- !private ["So14NSSecureCodingP", "numberWithUnsignedInteger"]
+- !private ["So14NSSecureCodingP", "numberWithUnsignedLong"]
+- !private ["So14NSSecureCodingP", "numberWithUnsignedLongLong"]
+- !private ["So14NSSecureCodingP", "numberWithUnsignedShort"]
+- !private ["So14NSSecureCodingP", "primitiveCount"]
+- !private ["So14NSSecureCodingP", "usesFloatComponents"]
+- !private ["So14NSSecureCodingP", "vectorCount"]
+- ["So7NSValueC", ""]
+- !private ["So7NSValueC", "init"]
+- !private ["So7NSValueC", "numberWithBool"]
+- !private ["So7NSValueC", "numberWithChar"]
+- !private ["So7NSValueC", "numberWithDouble"]
+- !private ["So7NSValueC", "numberWithFloat"]
+- !private ["So7NSValueC", "numberWithInt"]
+- !private ["So7NSValueC", "numberWithInteger"]
+- !private ["So7NSValueC", "numberWithLong"]
+- !private ["So7NSValueC", "numberWithLongLong"]
+- !private ["So7NSValueC", "numberWithShort"]
+- !private ["So7NSValueC", "numberWithUnsignedChar"]
+- !private ["So7NSValueC", "numberWithUnsignedInt"]
+- !private ["So7NSValueC", "numberWithUnsignedInteger"]
+- !private ["So7NSValueC", "numberWithUnsignedLong"]
+- !private ["So7NSValueC", "numberWithUnsignedLongLong"]
+- !private ["So7NSValueC", "numberWithUnsignedShort"]
+- !private ["Sj", "*"]
+- !private ["Sj", "*="]
+- !private ["Sj", ""]
+- !private ["Sj", "init"]
+- !private ["Sj", "magnitude"]
+- !private ["s9OptionSetP", "ArrayLiteralElement"]
+- !private ["s9OptionSetP", "Element"]
+- !private ["s9OptionSetP", "RawValue"]
+- !private ["s9OptionSetP", "init"]
+- !private ["Sk", ""]
+- !private ["Sk", "append"]
+- !private ["Sk", "copyBytes"]
+- !private ["Sk", "count"]
+- !private ["Sk", "distance"]
+- !private ["Sk", "endIndex"]
+- !private ["Sk", "formIndex"]
+- !private ["Sk", "index"]
+- !private ["Sk", "indices"]
+- !private ["Sk", "init"]
+- !private ["Sk", "init"]
+- !private ["Sk", "last"]
+- !private ["Sk", "map"]
+- !private ["Sk", "pointee"]
+- !private ["Sk", "reserveCapacity"]
+- !private ["Sk", "startIndex"]
+- !private ["Sk", "subdata"]
+- !private ["Sk", "subscript"]
+- !private ["Sk", "withUnsafeBytes"]
+- !private ["Sk", "withUnsafeMutableBufferPointer"]
+- !private ["Sm", ""]
+- !private ["Sm", "_customRemoveLast"]
+- !private ["Sm", "append"]
+- !private ["Sm", "copyBytes"]
+- !private ["Sm", "count"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "insert"]
+- !private ["Sm", "last"]
+- !private ["Sm", "map"]
+- !private ["Sm", "remove"]
+- !private ["Sm", "removeAll"]
+- !private ["Sm", "removeFirst"]
+- !private ["Sm", "removeSubrange"]
+- !private ["Sm", "replaceSubrange"]
+- !private ["Sm", "reserveCapacity"]
+- !private ["Sm", "startIndex"]
+- !private ["Sm", "subdata"]
+- !private ["Sm", "subscript"]
+- !private ["Sm", "withUnsafeBytes"]
+- !private ["Sm", "withUnsafeMutableBufferPointer"]
+- !private ["SY", "ArrayLiteralElement"]
+- !private ["SY", "Element"]
+- !private ["SY", "RawValue"]
+- !private ["SY", ""]
+- !private ["SY", "defaultIntent"]
+- !private ["SY", "init"]
+- !private ["SY", "none"]
+- !private ["SY", "noneSkipLast"]
+- !private ["SY", "rawValue"]
+- !private ["10Foundation20ReferenceConvertibleP", "copyBytes"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "startIndex"]
+- !private ["10Foundation20ReferenceConvertibleP", "subdata"]
+- !private ["10Foundation20ReferenceConvertibleP", "withUnsafeBytes"]
+- !private ["So18SCNGeometryElementC", "bytesPerIndex"]
+- !private ["So18SCNGeometryElementC", "data"]
+- !private ["So18SCNGeometryElementC", "primitiveCount"]
+- !private ["So17SCNGeometrySourceC", "bytesPerComponent"]
+- !private ["So17SCNGeometrySourceC", "componentsPerVector"]
+- !private ["So17SCNGeometrySourceC", "data"]
+- !private ["So17SCNGeometrySourceC", "dataOffset"]
+- !private ["So17SCNGeometrySourceC", "dataStride"]
+- !private ["So17SCNGeometrySourceC", "usesFloatComponents"]
+- !private ["So17SCNGeometrySourceC", "vectorCount"]
+- !private ["So10SCNMatrix4V", "init"]
+- !private ["So10SCNVector3V", "init"]
+- !private ["So10SCNVector3V", "x"]
+- !private ["So10SCNVector3V", "y"]
+- !private ["So10SCNVector3V", "z"]
+- !private ["So10SCNVector4V", "init"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- !private ["ST", ""]
+- !private ["ST", "append"]
+- !private ["ST", "copyBytes"]
+- !private ["ST", "count"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "last"]
+- !private ["ST", "map"]
+- !private ["ST", "pointee"]
+- !private ["ST", "reserveCapacity"]
+- !private ["ST", "startIndex"]
+- !private ["ST", "subdata"]
+- !private ["ST", "subscript"]
+- !private ["ST", "withUnsafeBytes"]
+- !private ["ST", "withUnsafeMutableBufferPointer"]
+- !private ["s10SetAlgebraP", "ArrayLiteralElement"]
+- !private ["s10SetAlgebraP", "Element"]
+- !private ["s10SetAlgebraP", "RawValue"]
+- !private ["s10SetAlgebraP", ""]
+- !private ["s10SetAlgebraP", "init"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "-"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", ""]
+- !private ["Sx", "_step"]
+- !private ["Sx", "advanced"]
+- !private ["Sx", "bindMemory"]
+- !private ["Sx", "distance"]
+- !private ["Sx", "init"]
+- !private ["Sx", "pointee"]
+- !private ["Sx", "subscript"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "cgImage"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So7UIColorC", "init"]
+- !private ["So7UIColorC", "init"]
+- !private ["So7UIImageC", "cgImage"]
+- !private ["So7UIImageC", "init"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "cgImage"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["Sp", "subscript"]
+- !private ["Sv", "bindMemory"]
+- !private ["SP", "pointee"]
+- !private ["SP", "subscript"]
+- !private ["SW", "pointee"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "last"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s14_ArrayProtocolP", "reserveCapacity"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s14_ArrayProtocolP", "withUnsafeMutableBufferPointer"]
+- !private ["14CoreFoundation9_CFObjectP", "draw"]
+- !private ["14CoreFoundation9_CFObjectP", "height"]
+- !private ["14CoreFoundation9_CFObjectP", "init"]
+- !private ["14CoreFoundation9_CFObjectP", "width"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "bindMemory"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "pointee"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "last"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "reserveCapacity"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "withUnsafeMutableBufferPointer"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s26_ExpressibleByColorLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "cgImage"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "last"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s19_HasContiguousBytesP", "pointee"]
+- !private ["s19_HasContiguousBytesP", "reserveCapacity"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "withUnsafeMutableBufferPointer"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "last"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reserveCapacity"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "withUnsafeMutableBufferPointer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bytesPerComponent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bytesPerIndex"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cgImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "componentsPerVector"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataOffset"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataStride"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "primitiveCount"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "usesFloatComponents"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "vectorCount"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bytesPerComponent"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bytesPerIndex"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cgImage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "componentsPerVector"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "data"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dataOffset"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dataStride"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "primitiveCount"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "usesFloatComponents"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "vectorCount"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "_bridgeToObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_conditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_forceBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "copyBytes"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "last"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "reserveCapacity"]
+- !private ["s21_ObjectiveCBridgeableP", "startIndex"]
+- !private ["s21_ObjectiveCBridgeableP", "subdata"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "withUnsafeBytes"]
+- !private ["s21_ObjectiveCBridgeableP", "withUnsafeMutableBufferPointer"]
+- !private ["s21_ObjectiveCBridgeableP", "x"]
+- !private ["s21_ObjectiveCBridgeableP", "y"]
+- !private ["s21_ObjectiveCBridgeableP", "z"]
+- !private ["s8_PointerP", "bindMemory"]
+- !private ["s8_PointerP", "pointee"]
+- !private ["s8_PointerP", "subscript"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "SK"
+- !private "SB"
+- !private "Sz"
+- !private "So12CGBitmapInfoV"
+- !private "So22CGColorRenderingIntentV"
+- !private "So12CGContextRefa"
+- !private "So17CGDataProviderRefa"
+- !private "12CoreGraphics7CGFloatV"
+- !private "So10CGImageRefa"
+- !private "So16CGImageAlphaInfoV"
+- !private "So6CGRectV"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "Sd"
+- !private "SE"
+- !private "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "Sf"
+- !private "SF"
+- !private "12GLTFSceneKit18GLTFUnarchiveErrorO"
+- !private "SH"
+- !private "Si"
+- !private "10Foundation14LocalizedErrorP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So8NSNumberC"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- "So7NSValueC"
+- !private "Sj"
+- !private "s9OptionSetP"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "So18SCNGeometryElementC"
+- !private "So17SCNGeometrySourceC"
+- !private "So10SCNMatrix4V"
+- !private "So10SCNVector3V"
+- !private "So10SCNVector4V"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So7UIColorC"
+- !private "So7UIImageC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "Sp"
+- !private "Sv"
+- !private "SP"
+- !private "SW"
+- !private "s14_ArrayProtocolP"
+- !private "14CoreFoundation9_CFObjectP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ModelIO.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/simd.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/GLKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SceneKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SpriteKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/ppeltekis/Desktop/iOS Projects/e-Scapani/Museum AR App/Pods/Headers/Public/GLTFSceneKit/GLTFSceneKit-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Users/ppeltekis/Desktop/iOS Projects/e-Scapani/Museum AR App/Pods/Headers/Public/GLTFSceneKit/GLTFSceneKit.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/SpriteKit.framework/Headers/SpriteKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d3932b8e0987be0f8795c06f07e16c8b"

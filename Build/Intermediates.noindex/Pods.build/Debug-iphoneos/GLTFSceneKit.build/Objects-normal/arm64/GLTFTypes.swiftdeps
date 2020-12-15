@@ -1,0 +1,423 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "attributeMap"
+- "GLTF_BYTE"
+- "GLTF_UNSIGNED_BYTE"
+- "GLTF_SHORT"
+- "GLTF_UNSIGNED_SHORT"
+- "GLTF_UNSIGNED_INT"
+- "GLTF_FLOAT"
+- "GLTF_ARRAY_BUFFER"
+- "GLTF_ELEMENT_ARRAY_BUFFER"
+- "GLTF_POINTS"
+- "GLTF_LINES"
+- "GLTF_LINE_LOOP"
+- "GLTF_LINE_STRIP"
+- "GLTF_TRIANGLES"
+- "GLTF_TRIANGLE_STRIP"
+- "GLTF_TRIANGLE_FAN"
+- "GLTF_NEAREST"
+- "GLTF_LINEAR"
+- "GLTF_NEAREST_MIPMAP_NEAREST"
+- "GLTF_LINEAR_MIPMAP_NEAREST"
+- "GLTF_NEAREST_MIPMAP_LINEAR"
+- "GLTF_LINEAR_MIPMAP_LINEAR"
+- "GLTF_CLAMP_TO_EDGE"
+- "GLTF_MIRRORED_REPEAT"
+- "GLTF_REPEAT"
+- "usesFloatComponentsMap"
+- "bytesPerComponentMap"
+- "componentsPerVectorMap"
+- "primitiveTypeMap"
+- "filterModeMap"
+- "wrapModeMap"
+- "keyPathMap"
+- "Image"
+- "GLTFCodable"
+- "GLTFPropertyProtocol"
+provides-nominal:
+- "12GLTFSceneKit11GLTFCodableP"
+- "12GLTFSceneKit20GLTFPropertyProtocolP"
+provides-member:
+- ["12GLTFSceneKit11GLTFCodableP", ""]
+- ["12GLTFSceneKit20GLTFPropertyProtocolP", ""]
+- ["12GLTFSceneKit20GLTFPropertyProtocolP", "didLoad"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Bool"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- "Codable"
+- "FloatLiteralType"
+- "GLTFCodable"
+- "GLTFExtension"
+- "GLTFExtras"
+- "GLTFPropertyProtocol"
+- "GLTFUnarchiver"
+- "GLTF_ARRAY_BUFFER"
+- "GLTF_BYTE"
+- "GLTF_CLAMP_TO_EDGE"
+- "GLTF_ELEMENT_ARRAY_BUFFER"
+- "GLTF_FLOAT"
+- "GLTF_LINEAR"
+- "GLTF_LINEAR_MIPMAP_LINEAR"
+- "GLTF_LINEAR_MIPMAP_NEAREST"
+- "GLTF_LINES"
+- "GLTF_LINE_LOOP"
+- "GLTF_LINE_STRIP"
+- "GLTF_MIRRORED_REPEAT"
+- "GLTF_NEAREST"
+- "GLTF_NEAREST_MIPMAP_LINEAR"
+- "GLTF_NEAREST_MIPMAP_NEAREST"
+- "GLTF_POINTS"
+- "GLTF_REPEAT"
+- "GLTF_SHORT"
+- "GLTF_TRIANGLES"
+- "GLTF_TRIANGLE_FAN"
+- "GLTF_TRIANGLE_STRIP"
+- "GLTF_UNSIGNED_BYTE"
+- "GLTF_UNSIGNED_INT"
+- "GLTF_UNSIGNED_SHORT"
+- "GL_ARRAY_BUFFER"
+- "GL_BYTE"
+- "GL_CLAMP_TO_EDGE"
+- "GL_ELEMENT_ARRAY_BUFFER"
+- "GL_FLOAT"
+- "GL_LINEAR"
+- "GL_LINEAR_MIPMAP_LINEAR"
+- "GL_LINEAR_MIPMAP_NEAREST"
+- "GL_LINES"
+- "GL_LINE_LOOP"
+- "GL_LINE_STRIP"
+- "GL_MIRRORED_REPEAT"
+- "GL_NEAREST"
+- "GL_NEAREST_MIPMAP_LINEAR"
+- "GL_NEAREST_MIPMAP_NEAREST"
+- "GL_POINTS"
+- "GL_REPEAT"
+- "GL_SHORT"
+- "GL_TRIANGLES"
+- "GL_TRIANGLE_FAN"
+- "GL_TRIANGLE_STRIP"
+- "GL_UNSIGNED_BYTE"
+- "GL_UNSIGNED_INT"
+- "GL_UNSIGNED_SHORT"
+- "Image"
+- "Int"
+- "IntegerLiteralType"
+- "SCNFilterMode"
+- "SCNGeometryPrimitiveType"
+- "SCNGeometrySource"
+- "SCNWrapMode"
+- "String"
+- "StringLiteralType"
+- "UIImage"
+- "attributeMap"
+- "bytesPerComponentMap"
+- "componentsPerVectorMap"
+- "filterModeMap"
+- "keyPathMap"
+- "primitiveTypeMap"
+- "usesFloatComponentsMap"
+- "wrapModeMap"
+depends-member:
+- ["s18AdditiveArithmeticP", ""]
+- ["s18AdditiveArithmeticP", "init"]
+- ["SK", ""]
+- ["Sz", ""]
+- ["Sz", "init"]
+- ["s7CVarArgP", "Semantic"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "values"]
+- ["Sl", ""]
+- !private ["Sl", "values"]
+- ["SL", ""]
+- ["SL", "init"]
+- ["s28CustomDebugStringConvertibleP", "Semantic"]
+- !private ["s28CustomDebugStringConvertibleP", "values"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "values"]
+- ["s23CustomStringConvertibleP", "Semantic"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "values"]
+- !private ["Se", "GLTFCodable"]
+- ["Se", "GLTFExtension"]
+- ["Se", "GLTFExtras"]
+- ["Se", "GLTFUnarchiver"]
+- ["Se", ""]
+- ["Se", "didLoad"]
+- ["Se", "extensions"]
+- ["Se", "extras"]
+- ["Se", "init"]
+- !private ["Se", "values"]
+- !private ["SD", "values"]
+- !private ["SE", "GLTFCodable"]
+- ["SE", "GLTFExtension"]
+- ["SE", "GLTFExtras"]
+- ["SE", "GLTFUnarchiver"]
+- ["SE", ""]
+- ["SE", "didLoad"]
+- ["SE", "extensions"]
+- ["SE", "extras"]
+- ["SE", "init"]
+- !private ["SE", "values"]
+- ["SQ", "Semantic"]
+- ["SQ", ""]
+- ["SQ", "boneIndices"]
+- ["SQ", "boneWeights"]
+- ["SQ", "clamp"]
+- ["SQ", "color"]
+- ["SQ", "init"]
+- ["SQ", "line"]
+- ["SQ", "linear"]
+- ["SQ", "mirror"]
+- ["SQ", "nearest"]
+- ["SQ", "normal"]
+- ["SQ", "point"]
+- ["SQ", "repeat"]
+- ["SQ", "tangent"]
+- ["SQ", "texcoord"]
+- ["SQ", "triangleStrip"]
+- ["SQ", "triangles"]
+- !private ["SQ", "values"]
+- ["SQ", "vertex"]
+- ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "values"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s27ExpressibleByIntegerLiteralP", ""]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["s17FixedWidthIntegerP", "init"]
+- !private ["12GLTFSceneKit11GLTFCodableP", "GLTFCodable"]
+- ["12GLTFSceneKit11GLTFCodableP", "GLTFExtension"]
+- ["12GLTFSceneKit11GLTFCodableP", "GLTFExtras"]
+- ["12GLTFSceneKit11GLTFCodableP", "GLTFUnarchiver"]
+- ["12GLTFSceneKit11GLTFCodableP", ""]
+- ["12GLTFSceneKit11GLTFCodableP", "didLoad"]
+- ["12GLTFSceneKit11GLTFCodableP", "extensions"]
+- ["12GLTFSceneKit11GLTFCodableP", "extras"]
+- !private ["12GLTFSceneKit13GLTFExtensionV", "extensions"]
+- !private ["12GLTFSceneKit20GLTFPropertyProtocolP", "GLTFCodable"]
+- ["12GLTFSceneKit20GLTFPropertyProtocolP", "GLTFExtension"]
+- ["12GLTFSceneKit20GLTFPropertyProtocolP", "GLTFExtras"]
+- ["12GLTFSceneKit20GLTFPropertyProtocolP", "GLTFUnarchiver"]
+- ["12GLTFSceneKit20GLTFPropertyProtocolP", ""]
+- ["12GLTFSceneKit20GLTFPropertyProtocolP", "didLoad"]
+- ["12GLTFSceneKit20GLTFPropertyProtocolP", "extensions"]
+- ["12GLTFSceneKit20GLTFPropertyProtocolP", "extras"]
+- ["SH", "Semantic"]
+- ["SH", ""]
+- ["SH", "boneIndices"]
+- ["SH", "boneWeights"]
+- ["SH", "clamp"]
+- ["SH", "color"]
+- ["SH", "init"]
+- ["SH", "line"]
+- ["SH", "linear"]
+- ["SH", "mirror"]
+- ["SH", "nearest"]
+- ["SH", "normal"]
+- ["SH", "point"]
+- ["SH", "repeat"]
+- ["SH", "tangent"]
+- ["SH", "texcoord"]
+- ["SH", "triangleStrip"]
+- ["SH", "triangles"]
+- !private ["SH", "values"]
+- ["SH", "vertex"]
+- ["Si", "init"]
+- ["s25LosslessStringConvertibleP", ""]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", "Semantic"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectC", "Semantic"]
+- ["So8NSObjectP", "Semantic"]
+- ["So14NSSecureCodingP", "Semantic"]
+- ["Sj", ""]
+- ["Sj", "init"]
+- ["SY", ""]
+- ["SY", "boneIndices"]
+- ["SY", "boneWeights"]
+- ["SY", "clamp"]
+- ["SY", "color"]
+- ["SY", "line"]
+- ["SY", "linear"]
+- ["SY", "mirror"]
+- ["SY", "nearest"]
+- ["SY", "normal"]
+- ["SY", "point"]
+- ["SY", "repeat"]
+- ["SY", "tangent"]
+- ["SY", "texcoord"]
+- ["SY", "triangleStrip"]
+- ["SY", "triangles"]
+- ["SY", "vertex"]
+- ["So13SCNFilterModeV", "linear"]
+- ["So13SCNFilterModeV", "nearest"]
+- ["So24SCNGeometryPrimitiveTypeV", "line"]
+- ["So24SCNGeometryPrimitiveTypeV", "point"]
+- ["So24SCNGeometryPrimitiveTypeV", "triangleStrip"]
+- ["So24SCNGeometryPrimitiveTypeV", "triangles"]
+- ["So17SCNGeometrySourceC", "Semantic"]
+- ["So11SCNWrapModeV", "clamp"]
+- ["So11SCNWrapModeV", "mirror"]
+- ["So11SCNWrapModeV", "repeat"]
+- ["s10SIMDScalarP", "init"]
+- ["So25SCNGeometrySourceSemantica", "boneIndices"]
+- ["So25SCNGeometrySourceSemantica", "boneWeights"]
+- ["So25SCNGeometrySourceSemantica", "color"]
+- ["So25SCNGeometrySourceSemantica", "normal"]
+- ["So25SCNGeometrySourceSemantica", "tangent"]
+- ["So25SCNGeometrySourceSemantica", "texcoord"]
+- ["So25SCNGeometrySourceSemantica", "vertex"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- ["ST", ""]
+- !private ["ST", "makeIterator"]
+- !private ["ST", "values"]
+- ["SZ", "init"]
+- ["s13SignedNumericP", ""]
+- ["s13SignedNumericP", "init"]
+- ["Sx", ""]
+- ["Sx", "init"]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
+- ["s30_CustomPlaygroundQuickLookableP", "init"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- ["s35_HasCustomAnyHashableRepresentationP", ""]
+- ["s35_HasCustomAnyHashableRepresentationP", "boneIndices"]
+- ["s35_HasCustomAnyHashableRepresentationP", "boneWeights"]
+- ["s35_HasCustomAnyHashableRepresentationP", "color"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "normal"]
+- ["s35_HasCustomAnyHashableRepresentationP", "tangent"]
+- ["s35_HasCustomAnyHashableRepresentationP", "texcoord"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "values"]
+- ["s35_HasCustomAnyHashableRepresentationP", "vertex"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Semantic"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Semantic"]
+- ["s21_ObjectiveCBridgeableP", "boneIndices"]
+- ["s21_ObjectiveCBridgeableP", "boneWeights"]
+- ["s21_ObjectiveCBridgeableP", "color"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "normal"]
+- ["s21_ObjectiveCBridgeableP", "tangent"]
+- ["s21_ObjectiveCBridgeableP", "texcoord"]
+- !private ["s21_ObjectiveCBridgeableP", "values"]
+- ["s21_ObjectiveCBridgeableP", "vertex"]
+- ["s20_SwiftNewtypeWrapperP", "boneIndices"]
+- ["s20_SwiftNewtypeWrapperP", "boneWeights"]
+- ["s20_SwiftNewtypeWrapperP", "color"]
+- ["s20_SwiftNewtypeWrapperP", "normal"]
+- ["s20_SwiftNewtypeWrapperP", "tangent"]
+- ["s20_SwiftNewtypeWrapperP", "texcoord"]
+- ["s20_SwiftNewtypeWrapperP", "vertex"]
+depends-nominal:
+- "s18AdditiveArithmeticP"
+- "SK"
+- "Sz"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "SD"
+- "SE"
+- "SQ"
+- "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s17FixedWidthIntegerP"
+- "12GLTFSceneKit11GLTFCodableP"
+- !private "12GLTFSceneKit13GLTFExtensionV"
+- "12GLTFSceneKit20GLTFPropertyProtocolP"
+- "SH"
+- "Si"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- "Sj"
+- "SY"
+- "So13SCNFilterModeV"
+- "So24SCNGeometryPrimitiveTypeV"
+- "So17SCNGeometrySourceC"
+- "So11SCNWrapModeV"
+- "s10SIMDScalarP"
+- "So25SCNGeometrySourceSemantica"
+- "ST"
+- "SZ"
+- "s13SignedNumericP"
+- "Sx"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "s30_CustomPlaygroundQuickLookableP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+- "s20_SwiftNewtypeWrapperP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ModelIO.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/simd.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/GLKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SceneKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SpriteKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/ppeltekis/Desktop/iOS Projects/e-Scapani/Museum AR App/Pods/Headers/Public/GLTFSceneKit/GLTFSceneKit-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Users/ppeltekis/Desktop/iOS Projects/e-Scapani/Museum AR App/Pods/Headers/Public/GLTFSceneKit/GLTFSceneKit.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/SpriteKit.framework/Headers/SpriteKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d57049ea3c5a5357c063da28a0104220"

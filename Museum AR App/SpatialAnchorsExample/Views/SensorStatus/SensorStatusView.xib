@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Jmw-4o-dNa" customClass="SensorStatusView" customModule="Museum_AR_App" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="135" height="65"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="aEg-J8-BfZ" userLabel="Sensors">
+                    <rect key="frame" x="5" y="5" width="125" height="55"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="FXD-cb-56o" userLabel="Geo Location Status">
+                            <rect key="frame" x="0.0" y="0.0" width="125" height="16.5"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="GeoLocation:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LTm-oG-hhe" userLabel="Geo Location Status Text">
+                                    <rect key="frame" x="0.0" y="0.0" width="105.5" height="16.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="750" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" image="gray-circle" translatesAutoresizingMaskIntoConstraints="NO" id="E0J-Ct-zVQ" userLabel="Geo Location Status Icon">
+                                    <rect key="frame" x="108.5" y="0.0" width="16.5" height="16.5"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="E0J-Ct-zVQ" secondAttribute="height" multiplier="1:1" id="LhZ-aE-GrH"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="E0J-Ct-zVQ" firstAttribute="height" secondItem="LTm-oG-hhe" secondAttribute="height" id="RyC-40-6ad"/>
+                            </constraints>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="jfy-9d-IFd" userLabel="Wifi Status">
+                            <rect key="frame" x="0.0" y="19.5" width="125" height="16"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Wi-Fi:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VPu-yR-MJz" userLabel="Wifi Status Text">
+                                    <rect key="frame" x="0.0" y="0.0" width="105.5" height="16"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="750" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" image="gray-circle" translatesAutoresizingMaskIntoConstraints="NO" id="Zg3-Bd-3Ai" userLabel="Wifi Status Icon">
+                                    <rect key="frame" x="108.5" y="0.0" width="16.5" height="16"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="Zg3-Bd-3Ai" secondAttribute="height" multiplier="1:1" id="Xpj-Qr-aOF"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="Zg3-Bd-3Ai" firstAttribute="height" secondItem="VPu-yR-MJz" secondAttribute="height" id="SZX-yI-f5S"/>
+                            </constraints>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="w2Z-Zu-gI5" userLabel="Bluetooth Status">
+                            <rect key="frame" x="0.0" y="38.5" width="125" height="16.5"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Bluetooth:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ajX-vA-0gf" userLabel="Bluetooth Status Text">
+                                    <rect key="frame" x="0.0" y="0.0" width="105.5" height="16.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="750" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" image="gray-circle" translatesAutoresizingMaskIntoConstraints="NO" id="fu6-L7-8rz" userLabel="Bluetooth Status Icon">
+                                    <rect key="frame" x="108.5" y="0.0" width="16.5" height="16.5"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="fu6-L7-8rz" secondAttribute="height" multiplier="1:1" id="hrq-hv-cri"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="fu6-L7-8rz" firstAttribute="height" secondItem="ajX-vA-0gf" secondAttribute="height" id="m9m-0z-gsz"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <viewLayoutGuide key="safeArea" id="ORM-Vq-ZIa"/>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="ELS-0A-QqN"/>
+            <constraints>
+                <constraint firstItem="aEg-J8-BfZ" firstAttribute="trailing" secondItem="Jmw-4o-dNa" secondAttribute="trailing" constant="-5" id="3vb-sa-7hm"/>
+                <constraint firstItem="aEg-J8-BfZ" firstAttribute="top" secondItem="Jmw-4o-dNa" secondAttribute="top" constant="5" id="INL-SC-IWu"/>
+                <constraint firstItem="aEg-J8-BfZ" firstAttribute="leading" secondItem="Jmw-4o-dNa" secondAttribute="leading" constant="5" id="PAK-PP-JFF"/>
+                <constraint firstItem="aEg-J8-BfZ" firstAttribute="bottom" secondItem="Jmw-4o-dNa" secondAttribute="bottom" constant="-5" id="pXs-Ws-xMg"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="bluetoothStatusIcon" destination="fu6-L7-8rz" id="hiE-rK-jQ7"/>
+                <outlet property="geoLocationStatusIcon" destination="E0J-Ct-zVQ" id="BsW-Me-8sF"/>
+                <outlet property="wifiStatusIcon" destination="Zg3-Bd-3Ai" id="VKx-iJ-E8H"/>
+            </connections>
+            <point key="canvasLocation" x="-157.24637681159422" y="100.11160714285714"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="gray-circle" width="48" height="48"/>
+    </resources>
+</document>

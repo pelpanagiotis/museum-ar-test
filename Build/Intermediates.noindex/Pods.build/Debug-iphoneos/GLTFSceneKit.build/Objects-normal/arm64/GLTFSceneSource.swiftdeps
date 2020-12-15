@@ -1,0 +1,313 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GLTFSceneSource"
+provides-nominal:
+- "12GLTFSceneKit0A6SourceC"
+provides-member:
+- ["12GLTFSceneKit0A6SourceC", ""]
+provides-dynamic-lookup:
+- "loader"
+- "scene"
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "Bundle"
+- "Codable"
+- "Data"
+- !private "FloatLiteralType"
+- "GLTFSceneSource"
+- "GLTFUnarchiver"
+- !private "IntegerLiteralType"
+- "SCNScene"
+- "SCNSceneSource"
+- "String"
+- !private "StringLiteralType"
+- "URL"
+- !private "URLError"
+- !private "print"
+depends-member:
+- ["SK", ""]
+- !private ["So8NSBundleC", "main"]
+- !private ["So8NSBundleC", "path"]
+- !private ["s7CVarArgP", "Bundle"]
+- !private ["s7CVarArgP", "GLTFUnarchiver"]
+- ["s7CVarArgP", "LoadingOption"]
+- !private ["s7CVarArgP", "URLError"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "loader"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "path"]
+- !private ["s7CVarArgP", "print"]
+- !private ["10Foundation8URLErrorV4CodeV", "fileDoesNotExist"]
+- ["Sl", ""]
+- ["SL", ""]
+- !private ["s28CustomDebugStringConvertibleP", "Bundle"]
+- !private ["s28CustomDebugStringConvertibleP", "GLTFUnarchiver"]
+- ["s28CustomDebugStringConvertibleP", "LoadingOption"]
+- !private ["s28CustomDebugStringConvertibleP", "URLError"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "loadScene"]
+- !private ["s28CustomDebugStringConvertibleP", "loader"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["10Foundation13CustomNSErrorP", ""]
+- !private ["10Foundation13CustomNSErrorP", "init"]
+- !private ["s17CustomReflectableP", "loadScene"]
+- !private ["s23CustomStringConvertibleP", "Bundle"]
+- !private ["s23CustomStringConvertibleP", "GLTFUnarchiver"]
+- ["s23CustomStringConvertibleP", "LoadingOption"]
+- !private ["s23CustomStringConvertibleP", "URLError"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "loader"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["Se", "loadScene"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "loadScene"]
+- !private ["SQ", "Bundle"]
+- !private ["SQ", "GLTFUnarchiver"]
+- ["SQ", "LoadingOption"]
+- !private ["SQ", "URLError"]
+- ["SQ", ""]
+- !private ["SQ", "fileDoesNotExist"]
+- !private ["SQ", "init"]
+- !private ["SQ", "loadScene"]
+- !private ["SQ", "loader"]
+- !private ["SQ", "main"]
+- !private ["SQ", "path"]
+- !private ["SQ", "print"]
+- !private ["s5ErrorP", ""]
+- !private ["s5ErrorP", "init"]
+- !private ["s5ErrorP", "localizedDescription"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s23ExpressibleByNilLiteralP", "loadScene"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["12GLTFSceneKit0A6SourceC", "Bundle"]
+- ["12GLTFSceneKit0A6SourceC", "Codable"]
+- ["12GLTFSceneKit0A6SourceC", "Data"]
+- ["12GLTFSceneKit0A6SourceC", "GLTFUnarchiver"]
+- ["12GLTFSceneKit0A6SourceC", "SCNScene"]
+- ["12GLTFSceneKit0A6SourceC", "SCNSceneSource"]
+- ["12GLTFSceneKit0A6SourceC", "String"]
+- ["12GLTFSceneKit0A6SourceC", "URL"]
+- !private ["12GLTFSceneKit0A6SourceC", "URLError"]
+- ["12GLTFSceneKit0A6SourceC", ""]
+- ["12GLTFSceneKit0A6SourceC", "deinit"]
+- ["12GLTFSceneKit0A6SourceC", "init"]
+- !private ["12GLTFSceneKit0A6SourceC", "loader"]
+- !private ["12GLTFSceneKit0A6SourceC", "print"]
+- ["12GLTFSceneKit0A6SourceC", "scene"]
+- !private ["12GLTFSceneKit14GLTFUnarchiverC", "init"]
+- !private ["12GLTFSceneKit14GLTFUnarchiverC", "loadScene"]
+- !private ["SH", "Bundle"]
+- !private ["SH", "GLTFUnarchiver"]
+- ["SH", "LoadingOption"]
+- !private ["SH", "URLError"]
+- ["SH", ""]
+- !private ["SH", "fileDoesNotExist"]
+- !private ["SH", "init"]
+- !private ["SH", "loadScene"]
+- !private ["SH", "loader"]
+- !private ["SH", "main"]
+- !private ["SH", "path"]
+- !private ["SH", "print"]
+- ["s25LosslessStringConvertibleP", ""]
+- ["So8NSCodingP", ""]
+- !private ["So8NSObjectC", "Bundle"]
+- ["So8NSObjectC", "Codable"]
+- ["So8NSObjectC", "Data"]
+- ["So8NSObjectC", "GLTFUnarchiver"]
+- ["So8NSObjectC", "LoadingOption"]
+- ["So8NSObjectC", "SCNScene"]
+- ["So8NSObjectC", "SCNSceneSource"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "URL"]
+- !private ["So8NSObjectC", "URLError"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "loader"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "path"]
+- !private ["So8NSObjectC", "pathForAuxiliaryExecutable"]
+- !private ["So8NSObjectC", "pathForResource"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "scene"]
+- ["So8NSObjectC", "sceneSourceWithData"]
+- ["So8NSObjectC", "sceneSourceWithURL"]
+- ["So8NSObjectC", "sceneWithOptions"]
+- !private ["So8NSObjectP", "Bundle"]
+- ["So8NSObjectP", "Codable"]
+- ["So8NSObjectP", "Data"]
+- ["So8NSObjectP", "GLTFUnarchiver"]
+- ["So8NSObjectP", "LoadingOption"]
+- ["So8NSObjectP", "SCNScene"]
+- ["So8NSObjectP", "SCNSceneSource"]
+- ["So8NSObjectP", "String"]
+- ["So8NSObjectP", "URL"]
+- !private ["So8NSObjectP", "URLError"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "loader"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "path"]
+- !private ["So8NSObjectP", "pathForAuxiliaryExecutable"]
+- !private ["So8NSObjectP", "pathForResource"]
+- !private ["So8NSObjectP", "print"]
+- ["So8NSObjectP", "scene"]
+- ["So8NSObjectP", "sceneSourceWithData"]
+- ["So8NSObjectP", "sceneSourceWithURL"]
+- ["So8NSObjectP", "sceneWithOptions"]
+- !private ["Sq", "loadScene"]
+- !private ["SY", "fileDoesNotExist"]
+- !private ["So14SCNSceneSourceC", "Bundle"]
+- ["So14SCNSceneSourceC", "Codable"]
+- ["So14SCNSceneSourceC", "Data"]
+- ["So14SCNSceneSourceC", "GLTFUnarchiver"]
+- ["So14SCNSceneSourceC", "LoadingOption"]
+- ["So14SCNSceneSourceC", "SCNScene"]
+- ["So14SCNSceneSourceC", "SCNSceneSource"]
+- ["So14SCNSceneSourceC", "String"]
+- ["So14SCNSceneSourceC", "URL"]
+- !private ["So14SCNSceneSourceC", "URLError"]
+- ["So14SCNSceneSourceC", ""]
+- ["So14SCNSceneSourceC", "init"]
+- ["So14SCNSceneSourceC", "loader"]
+- !private ["So14SCNSceneSourceC", "print"]
+- ["So14SCNSceneSourceC", "scene"]
+- ["ST", ""]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- ["s20TextOutputStreamableP", ""]
+- !private ["10Foundation8URLErrorV", "init"]
+- !private ["10Foundation21_BridgedStoredNSErrorP", "init"]
+- !private ["10Foundation18_ErrorCodeProtocolP", "fileDoesNotExist"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Bundle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "GLTFUnarchiver"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "LoadingOption"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URLError"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "loader"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "path"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Bundle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "GLTFUnarchiver"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "LoadingOption"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "URLError"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "loader"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "path"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
+- !private ["s21_ObjectiveCBridgeableP", "loadScene"]
+- !private ["10Foundation26_ObjectiveCBridgeableErrorP", ""]
+- !private ["10Foundation26_ObjectiveCBridgeableErrorP", "init"]
+depends-nominal:
+- "SK"
+- !private "So8NSBundleC"
+- "s7CVarArgP"
+- !private "10Foundation8URLErrorV4CodeV"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "10Foundation13CustomNSErrorP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- "SQ"
+- !private "s5ErrorP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "12GLTFSceneKit0A6SourceC"
+- !private "12GLTFSceneKit14GLTFUnarchiverC"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sq"
+- !private "SY"
+- "So14SCNSceneSourceC"
+- "ST"
+- !private "s27StringInterpolationProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "10Foundation8URLErrorV"
+- !private "10Foundation21_BridgedStoredNSErrorP"
+- !private "10Foundation18_ErrorCodeProtocolP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "10Foundation26_ObjectiveCBridgeableErrorP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ModelIO.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/simd.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/GLKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SceneKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SpriteKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/ppeltekis/Desktop/iOS Projects/e-Scapani/Museum AR App/Pods/Headers/Public/GLTFSceneKit/GLTFSceneKit-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Users/ppeltekis/Desktop/iOS Projects/e-Scapani/Museum AR App/Pods/Headers/Public/GLTFSceneKit/GLTFSceneKit.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/SpriteKit.framework/Headers/SpriteKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "2e7ab9c00d2bbec7d266a9258f8ccae2"

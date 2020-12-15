@@ -1,0 +1,8 @@
+${PODS_ROOT}/Target Support Files/Pods-Museum AR App-Museum AR AppUITests/Pods-Museum AR App-Museum AR AppUITests-resources.sh
+${PODS_ROOT}/GLTFSceneKit/Source/Common/GLTFShaderModifierFragment_alphaCutoff.shader
+${PODS_ROOT}/GLTFSceneKit/Source/Common/GLTFShaderModifierSurface.shader
+${PODS_ROOT}/GLTFSceneKit/Source/Common/GLTFShaderModifierSurface_alphaModeBlend.shader
+${PODS_ROOT}/GLTFSceneKit/Source/Common/GLTFShaderModifierSurface_doubleSidedWorkaround.shader
+${PODS_ROOT}/GLTFSceneKit/Source/Common/schema/extensions/KHR_materials_pbrSpecularGlossiness/GLTFShaderModifierSurface_pbrSpecularGlossiness.shader
+${PODS_ROOT}/GLTFSceneKit/Source/Common/schema/extensions/KHR_materials_pbrSpecularGlossiness/GLTFShaderModifierSurface_pbrSpecularGlossiness_doubleSidedWorkaround.shader
+${PODS_ROOT}/GLTFSceneKit/Source/Common/schema/extensions/KHR_materials_pbrSpecularGlossiness/GLTFShaderModifierSurface_pbrSpecularGlossiness_texture_doubleSidedWorkaround.shader

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="IsI-m7-bkZ">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Menu Screen View Controller-->
+        <scene sceneID="2pD-uI-xPV">
+            <objects>
+                <viewController id="IsI-m7-bkZ" customClass="MenuScreenViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8Vo-GO-vSf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="LaZ-kl-ELB" userLabel="Demo Options">
+                                <rect key="frame" x="50" y="594" width="314" height="168"/>
+                                <subviews>
+                                    <button opaque="NO" alpha="0.60000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="0JG-YE-8vs" userLabel="Tap to start Coarse Reloc Demo">
+                                        <rect key="frame" x="0.0" y="0.0" width="314" height="30"/>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <state key="normal" title="Tap to start Coarse Reloc Demo">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="NIQ-Eo-J27" kind="presentation" id="KEt-bX-cIH"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" alpha="0.60000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="V74-c3-Hf6">
+                                        <rect key="frame" x="0.0" y="46" width="314" height="30"/>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <state key="normal" title="Tap to start Nearby Demo">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="zPx-Eh-JqB" kind="presentation" id="Q5i-4W-5Iq"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" alpha="0.60000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="cN8-Sb-WFL">
+                                        <rect key="frame" x="0.0" y="92" width="314" height="30"/>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <state key="normal" title="Tap to start Shared Demo">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="ZUB-Bv-BeH" kind="presentation" id="m59-Na-ubN"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" alpha="0.60000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="4ot-yI-804">
+                                        <rect key="frame" x="0.0" y="138" width="314" height="30"/>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <state key="normal" title="Tap to start Basic Demo">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="oY4-sz-Rtj" kind="presentation" id="zrY-aF-RZb"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="V74-c3-Hf6" firstAttribute="leading" secondItem="LaZ-kl-ELB" secondAttribute="leading" id="BJ2-Du-dlA"/>
+                                    <constraint firstAttribute="trailing" secondItem="cN8-Sb-WFL" secondAttribute="trailing" id="Eco-By-hgj"/>
+                                    <constraint firstItem="4ot-yI-804" firstAttribute="leading" secondItem="LaZ-kl-ELB" secondAttribute="leading" id="JiC-AC-Bim"/>
+                                    <constraint firstItem="cN8-Sb-WFL" firstAttribute="leading" secondItem="LaZ-kl-ELB" secondAttribute="leading" id="NWq-Tt-eoC"/>
+                                    <constraint firstAttribute="trailing" secondItem="V74-c3-Hf6" secondAttribute="trailing" id="SZE-Iw-may"/>
+                                    <constraint firstAttribute="trailing" secondItem="0JG-YE-8vs" secondAttribute="trailing" id="jGA-wo-Q1l"/>
+                                    <constraint firstAttribute="trailing" secondItem="4ot-yI-804" secondAttribute="trailing" id="lnu-fV-h7b"/>
+                                    <constraint firstItem="0JG-YE-8vs" firstAttribute="leading" secondItem="LaZ-kl-ELB" secondAttribute="leading" id="xxa-xp-7Jx"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="oUI-gw-ByC"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="oUI-gw-ByC" firstAttribute="bottom" secondItem="LaZ-kl-ELB" secondAttribute="bottom" constant="100" id="7dO-Ul-Mr6"/>
+                            <constraint firstItem="LaZ-kl-ELB" firstAttribute="leading" secondItem="oUI-gw-ByC" secondAttribute="leading" constant="50" id="sAn-Bg-9Vf"/>
+                            <constraint firstItem="oUI-gw-ByC" firstAttribute="trailing" secondItem="LaZ-kl-ELB" secondAttribute="trailing" constant="50" id="thu-ys-V54"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kcd-L5-Cdr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-55.200000000000003" y="26.53673163418291"/>
+        </scene>
+        <!--Basic Demo View Controller-->
+        <scene sceneID="vnh-LS-fn1">
+            <objects>
+                <viewController id="oY4-sz-Rtj" customClass="BasicDemoViewController" sceneMemberID="viewController">
+                    <arscnView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="FKw-lq-xPs">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </arscnView>
+                    <connections>
+                        <outlet property="sceneView" destination="FKw-lq-xPs" id="uBb-WZ-DUe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5fS-oF-a8A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="902" y="602"/>
+        </scene>
+        <!--Coarse Reloc Demo View Controller-->
+        <scene sceneID="W9B-WB-n2z">
+            <objects>
+                <viewController id="NIQ-Eo-J27" userLabel="Coarse Reloc Demo View Controller" customClass="CoarseRelocDemoViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="v1U-ly-lPJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DK8-Wd-WQ8">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                            </arscnView>
+                            <view contentMode="topRight" horizontalHuggingPriority="750" verticalHuggingPriority="750" placeholderIntrinsicWidth="150" placeholderIntrinsicHeight="100" translatesAutoresizingMaskIntoConstraints="NO" id="4wh-P6-uOn" userLabel="Sensor Status" customClass="SensorStatusView">
+                                <rect key="frame" x="264" y="0.0" width="150" height="100"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="zGE-jN-U6D"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="4wh-P6-uOn" firstAttribute="trailing" secondItem="zGE-jN-U6D" secondAttribute="trailing" id="HUF-e4-COL"/>
+                            <constraint firstItem="DK8-Wd-WQ8" firstAttribute="leading" secondItem="v1U-ly-lPJ" secondAttribute="leading" id="fhh-Db-bME"/>
+                            <constraint firstItem="DK8-Wd-WQ8" firstAttribute="bottom" secondItem="v1U-ly-lPJ" secondAttribute="bottom" id="mNC-fh-5NZ"/>
+                            <constraint firstItem="DK8-Wd-WQ8" firstAttribute="top" secondItem="v1U-ly-lPJ" secondAttribute="top" id="tbV-ta-5jA"/>
+                            <constraint firstItem="4wh-P6-uOn" firstAttribute="top" secondItem="zGE-jN-U6D" secondAttribute="top" id="tkN-Za-J53"/>
+                            <constraint firstItem="DK8-Wd-WQ8" firstAttribute="trailing" secondItem="v1U-ly-lPJ" secondAttribute="trailing" id="zGz-EF-TxU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="sceneView" destination="DK8-Wd-WQ8" id="eEc-Rs-sfz"/>
+                        <outlet property="sensorStatusView" destination="4wh-P6-uOn" id="SfX-VU-zn6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ic8-A6-bWX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="902" y="-1357"/>
+        </scene>
+        <!--Nearby Demo View Controller-->
+        <scene sceneID="r7r-Hu-rBo">
+            <objects>
+                <viewController id="zPx-Eh-JqB" customClass="NearbyDemoViewController" sceneMemberID="viewController">
+                    <arscnView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="QDc-QU-16c">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </arscnView>
+                    <connections>
+                        <outlet property="sceneView" destination="QDc-QU-16c" id="YPJ-vi-wip"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GGd-nW-McA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="902" y="-703"/>
+        </scene>
+        <!--Shared Demo View Controller-->
+        <scene sceneID="OPn-BN-XH9">
+            <objects>
+                <viewController id="ZUB-Bv-BeH" customClass="SharedDemoViewController" sceneMemberID="viewController">
+                    <arscnView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="HsE-fe-mcS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </arscnView>
+                    <connections>
+                        <outlet property="sceneView" destination="HsE-fe-mcS" id="0bG-GI-ZB7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fIe-Je-fLv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="902" y="-49"/>
+        </scene>
+    </scenes>
+</document>

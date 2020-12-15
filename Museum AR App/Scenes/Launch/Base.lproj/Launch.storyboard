@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Launch View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" customClass="LaunchViewController" customModule="Museum_AR_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NEQ-YV-2wc">
+                                <rect key="frame" x="171.5" y="294" width="71" height="30"/>
+                                <state key="normal" title="3D Viewer"/>
+                                <connections>
+                                    <action selector="threeDimensionsViewerButtonTap:" destination="01J-lp-oVM" eventType="touchUpInside" id="HU7-ye-Fne"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V7L-Nb-Sn4">
+                                <rect key="frame" x="192" y="582" width="30" height="30"/>
+                                <state key="normal" title="AR"/>
+                                <connections>
+                                    <action selector="arButtonTap:" destination="01J-lp-oVM" eventType="touchUpInside" id="2ZB-sj-MES"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eb3-EH-V0L">
+                                <rect key="frame" x="187.5" y="438" width="39" height="30"/>
+                                <state key="normal" title="ARCL"/>
+                                <connections>
+                                    <action selector="arLocationButtonTap:" destination="01J-lp-oVM" eventType="touchUpInside" id="JcX-Rr-i3j"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Eb3-EH-V0L" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="0Xb-4s-Zrb"/>
+                            <constraint firstItem="V7L-Nb-Sn4" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="hbu-R3-XXa"/>
+                            <constraint firstItem="Eb3-EH-V0L" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="mUE-Qb-bYR"/>
+                            <constraint firstItem="NEQ-YV-2wc" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="pEj-c8-KJk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="V7L-Nb-Sn4" secondAttribute="bottom" constant="250" id="sfQ-Gl-Ejs"/>
+                            <constraint firstItem="NEQ-YV-2wc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="250" id="v1F-v4-ZSy"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="arButton" destination="V7L-Nb-Sn4" id="odH-X0-f7b"/>
+                        <outlet property="arLocationButton" destination="Eb3-EH-V0L" id="n27-OA-t9z"/>
+                        <outlet property="threeDimensionsViewerButton" destination="NEQ-YV-2wc" id="Wx0-2E-kzB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

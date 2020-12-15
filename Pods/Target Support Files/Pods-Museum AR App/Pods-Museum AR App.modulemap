@@ -1,0 +1,6 @@
+module Pods_Museum_AR_App {
+  umbrella header "Pods-Museum AR App-umbrella.h"
+
+  export *
+  module * { export * }
+}

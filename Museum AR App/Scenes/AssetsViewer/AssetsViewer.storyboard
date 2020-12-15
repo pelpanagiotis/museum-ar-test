@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Assets Viewer View Controller-->
+        <scene sceneID="KUV-la-f0A">
+            <objects>
+                <viewController storyboardIdentifier="AssetsViewerViewControllerIdentifier" id="SXX-9w-lMf" customClass="AssetsViewerViewController" customModule="Museum_AR_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7cF-23-mKn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <sceneKitView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OTI-6R-tJS">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            </sceneKitView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="qZx-uf-nCJ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="OTI-6R-tJS" firstAttribute="leading" secondItem="qZx-uf-nCJ" secondAttribute="leading" id="0Gk-gn-Oth"/>
+                            <constraint firstItem="OTI-6R-tJS" firstAttribute="top" secondItem="qZx-uf-nCJ" secondAttribute="top" id="0Xv-kz-Sde"/>
+                            <constraint firstItem="qZx-uf-nCJ" firstAttribute="bottom" secondItem="OTI-6R-tJS" secondAttribute="bottom" id="Bdv-36-ag8"/>
+                            <constraint firstItem="qZx-uf-nCJ" firstAttribute="trailing" secondItem="OTI-6R-tJS" secondAttribute="trailing" id="v05-FP-QEr"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="sceneView" destination="OTI-6R-tJS" id="w3c-DJ-aHL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="koa-ND-5Nh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-433.33333333333337" y="112.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

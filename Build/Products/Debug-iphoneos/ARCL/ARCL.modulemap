@@ -1,0 +1,12 @@
+module ARCL {
+  umbrella header "ARCL-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+
+module ARCL.Swift {
+  header "/Users/ppeltekis/Desktop/iOS Projects/e-Scapani/Museum AR App/Build/Products/Debug-iphoneos/ARCL/Swift Compatibility Header/ARCL-Swift.h"
+  requires objc
+}

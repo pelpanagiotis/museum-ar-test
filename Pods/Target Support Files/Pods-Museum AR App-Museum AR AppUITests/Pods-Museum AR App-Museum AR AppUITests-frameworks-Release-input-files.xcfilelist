@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-Museum AR App-Museum AR AppUITests/Pods-Museum AR App-Museum AR AppUITests-frameworks.sh
+${PODS_ROOT}/AzureSpatialAnchors/bin/frameworks/AzureSpatialAnchors.framework
+${PODS_ROOT}/AzureSpatialAnchors/bin/frameworks/CoarseReloc.framework

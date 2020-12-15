@@ -1,0 +1,698 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GLTFKHRMaterialsPbrSpecularGlossiness_GLTFKHRMaterialsPbrSpecularGlossinessExtension"
+provides-nominal:
+- "12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV"
+- "12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV0cdef1_cdeF0V"
+- "12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV10CodingKeysO"
+provides-member:
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV", ""]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV0cdef1_cdeF0V", ""]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV10CodingKeysO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "??"
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "Bundle"
+- "CastingPrecedence"
+- "Codable"
+- "CodingKey"
+- !private "Dictionary"
+- "Float"
+- !private "FloatLiteralType"
+- "GLTFCodable"
+- "GLTFKHRMaterialsPbrSpecularGlossiness_GLTFKHRMaterialsPbrSpecularGlossiness"
+- "GLTFKHRMaterialsPbrSpecularGlossiness_GLTFKHRMaterialsPbrSpecularGlossinessExtension"
+- "GLTFTextureInfo"
+- "GLTFUnarchiver"
+- !private "IntegerLiteralType"
+- "SCNMaterial"
+- "String"
+- "StringLiteralType"
+- !private "URL"
+- !private "_findStringSwitchCase"
+- !private "createColor"
+- !private "print"
+- !private "~="
+depends-member:
+- !private ["Sa", "subscript"]
+- !private ["SK", "Encoding"]
+- !private ["SK", ""]
+- !private ["SK", "init"]
+- !private ["SK", "subscript"]
+- !private ["So8NSBundleC", "init"]
+- !private ["So8NSBundleC", "path"]
+- !private ["s7CVarArgP", "Encoding"]
+- !private ["s7CVarArgP", "contents"]
+- !private ["s7CVarArgP", "diffuse"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "lightingModel"]
+- !private ["s7CVarArgP", "mappingChannel"]
+- !private ["s7CVarArgP", "multiply"]
+- !private ["s7CVarArgP", "path"]
+- !private ["s7CVarArgP", "setValue"]
+- !private ["s7CVarArgP", "shaderModifiers"]
+- !private ["s7CVarArgP", "specular"]
+- !private ["s7CVarArgP", "subscript"]
+- ["s9CodingKeyP", "=="]
+- ["s9CodingKeyP", "Default_RawValue"]
+- ["s9CodingKeyP", "RawValue"]
+- ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- !private ["s9CodingKeyP", "findStringSwitchCase"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- !private ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "rawValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV10CodingKeysO", "=="]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV10CodingKeysO", "Default_RawValue"]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV10CodingKeysO", "RawValue"]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV10CodingKeysO", ""]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV10CodingKeysO", "_Default_RawValue"]
+- !private ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV10CodingKeysO", "_findStringSwitchCase"]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV10CodingKeysO", "_rawHashValue"]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV10CodingKeysO", "data"]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV10CodingKeysO", "debugDescription"]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV10CodingKeysO", "description"]
+- !private ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV10CodingKeysO", "findStringSwitchCase"]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV10CodingKeysO", "hash"]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV10CodingKeysO", "hashValue"]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV10CodingKeysO", "init"]
+- !private ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV10CodingKeysO", "init"]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV10CodingKeysO", "intValue"]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV10CodingKeysO", "rawValue"]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV10CodingKeysO", "stringValue"]
+- !private ["Sl", "Encoding"]
+- !private ["Sl", ""]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "Encoding"]
+- !private ["SL", ""]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", "Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "Encoding"]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "contents"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "diffuse"]
+- !private ["s28CustomDebugStringConvertibleP", "findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "lightingModel"]
+- !private ["s28CustomDebugStringConvertibleP", "mappingChannel"]
+- !private ["s28CustomDebugStringConvertibleP", "multiply"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "setValue"]
+- !private ["s28CustomDebugStringConvertibleP", "shaderModifiers"]
+- !private ["s28CustomDebugStringConvertibleP", "specular"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "Encoding"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "Encoding"]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "contents"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "diffuse"]
+- !private ["s23CustomStringConvertibleP", "findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "lightingModel"]
+- !private ["s23CustomStringConvertibleP", "mappingChannel"]
+- !private ["s23CustomStringConvertibleP", "multiply"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- !private ["s23CustomStringConvertibleP", "setValue"]
+- !private ["s23CustomStringConvertibleP", "shaderModifiers"]
+- !private ["s23CustomStringConvertibleP", "specular"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "Bundle"]
+- ["Se", "Codable"]
+- ["Se", "CodingKey"]
+- !private ["Se", "Encoding"]
+- !private ["Se", "GLTFUnarchiver"]
+- !private ["Se", "String"]
+- !private ["Se", "URL"]
+- ["Se", ""]
+- !private ["Se", "_diffuseFactor"]
+- !private ["Se", "_findStringSwitchCase"]
+- !private ["Se", "_glossinessFactor"]
+- !private ["Se", "_specularFactor"]
+- !private ["Se", "createColor"]
+- !private ["Se", "data"]
+- ["Se", "didLoad"]
+- !private ["Se", "diffuseFactor"]
+- !private ["Se", "diffuseTexture"]
+- ["Se", "encode"]
+- !private ["Se", "findStringSwitchCase"]
+- !private ["Se", "glossinessFactor"]
+- !private ["Se", "index"]
+- ["Se", "init"]
+- !private ["Se", "print"]
+- !private ["Se", "specularFactor"]
+- !private ["Se", "specularGlossinessTexture"]
+- !private ["Se", "subscript"]
+- !private ["Se", "texCoord"]
+- !private ["s7DecoderP", "container"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "Bundle"]
+- ["SE", "Codable"]
+- ["SE", "CodingKey"]
+- !private ["SE", "Encoding"]
+- !private ["SE", "GLTFUnarchiver"]
+- !private ["SE", "String"]
+- !private ["SE", "URL"]
+- ["SE", ""]
+- !private ["SE", "_diffuseFactor"]
+- !private ["SE", "_findStringSwitchCase"]
+- !private ["SE", "_glossinessFactor"]
+- !private ["SE", "_specularFactor"]
+- !private ["SE", "createColor"]
+- !private ["SE", "data"]
+- ["SE", "didLoad"]
+- !private ["SE", "diffuseFactor"]
+- !private ["SE", "diffuseTexture"]
+- ["SE", "encode"]
+- !private ["SE", "findStringSwitchCase"]
+- !private ["SE", "glossinessFactor"]
+- !private ["SE", "index"]
+- ["SE", "init"]
+- !private ["SE", "print"]
+- !private ["SE", "specularFactor"]
+- !private ["SE", "specularGlossinessTexture"]
+- !private ["SE", "subscript"]
+- !private ["SE", "texCoord"]
+- !private ["s7EncoderP", "container"]
+- !private ["SS10FoundationE8EncodingV", "utf8"]
+- ["SQ", "=="]
+- ["SQ", "Default_RawValue"]
+- !private ["SQ", "Encoding"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "contents"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- !private ["SQ", "diffuse"]
+- !private ["SQ", "findStringSwitchCase"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- ["SQ", "intValue"]
+- !private ["SQ", "lightingModel"]
+- !private ["SQ", "mappingChannel"]
+- !private ["SQ", "multiply"]
+- !private ["SQ", "path"]
+- !private ["SQ", "physicallyBased"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "setValue"]
+- !private ["SQ", "shaderModifiers"]
+- !private ["SQ", "specular"]
+- ["SQ", "stringValue"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "surface"]
+- !private ["SQ", "utf8"]
+- !private ["s5ErrorP", "localizedDescription"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Encoding"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "Encoding"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "Encoding"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "Encoding"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["12GLTFSceneKit11GLTFCodableP", "Bundle"]
+- ["12GLTFSceneKit11GLTFCodableP", "Codable"]
+- ["12GLTFSceneKit11GLTFCodableP", "CodingKey"]
+- !private ["12GLTFSceneKit11GLTFCodableP", "GLTFUnarchiver"]
+- !private ["12GLTFSceneKit11GLTFCodableP", "String"]
+- !private ["12GLTFSceneKit11GLTFCodableP", "URL"]
+- ["12GLTFSceneKit11GLTFCodableP", ""]
+- !private ["12GLTFSceneKit11GLTFCodableP", "_findStringSwitchCase"]
+- !private ["12GLTFSceneKit11GLTFCodableP", "createColor"]
+- !private ["12GLTFSceneKit11GLTFCodableP", "data"]
+- ["12GLTFSceneKit11GLTFCodableP", "didLoad"]
+- ["12GLTFSceneKit11GLTFCodableP", "encode"]
+- !private ["12GLTFSceneKit11GLTFCodableP", "findStringSwitchCase"]
+- !private ["12GLTFSceneKit11GLTFCodableP", "index"]
+- ["12GLTFSceneKit11GLTFCodableP", "init"]
+- !private ["12GLTFSceneKit11GLTFCodableP", "print"]
+- !private ["12GLTFSceneKit11GLTFCodableP", "texCoord"]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV0cdef1_cdeF0V", "CodingKey"]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV0cdef1_cdeF0V", "CodingKeys"]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV0cdef1_cdeF0V", "Float"]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV0cdef1_cdeF0V", "GLTFTextureInfo"]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV0cdef1_cdeF0V", "String"]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV0cdef1_cdeF0V", ""]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV0cdef1_cdeF0V", "_diffuseFactor"]
+- !private ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV0cdef1_cdeF0V", "_findStringSwitchCase"]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV0cdef1_cdeF0V", "_glossinessFactor"]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV0cdef1_cdeF0V", "_specularFactor"]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV0cdef1_cdeF0V", "diffuseFactor"]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV0cdef1_cdeF0V", "diffuseTexture"]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV0cdef1_cdeF0V", "encode"]
+- !private ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV0cdef1_cdeF0V", "findStringSwitchCase"]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV0cdef1_cdeF0V", "glossinessFactor"]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV0cdef1_cdeF0V", "init"]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV0cdef1_cdeF0V", "specularFactor"]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV0cdef1_cdeF0V", "specularGlossinessTexture"]
+- !private ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV", "Bundle"]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV", "Codable"]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV", "CodingKey"]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV", "CodingKeys"]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV", "Float"]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV", "GLTFKHRMaterialsPbrSpecularGlossiness_GLTFKHRMaterialsPbrSpecularGlossiness"]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV", "GLTFTextureInfo"]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV", "GLTFUnarchiver"]
+- !private ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV", "SCNMaterial"]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV", "String"]
+- !private ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV", "URL"]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV", ""]
+- !private ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV", "_findStringSwitchCase"]
+- !private ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV", "createColor"]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV", "data"]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV", "didLoad"]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV", "encode"]
+- !private ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV", "findStringSwitchCase"]
+- ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV", "init"]
+- !private ["12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV", "print"]
+- !private ["12GLTFSceneKit20GLTFPropertyProtocolP", "index"]
+- !private ["12GLTFSceneKit20GLTFPropertyProtocolP", "texCoord"]
+- ["12GLTFSceneKit15GLTFTextureInfoV", ""]
+- !private ["12GLTFSceneKit15GLTFTextureInfoV", "index"]
+- !private ["12GLTFSceneKit15GLTFTextureInfoV", "texCoord"]
+- !private ["12GLTFSceneKit14GLTFUnarchiverC", "setTexture"]
+- ["SH", "=="]
+- ["SH", "Default_RawValue"]
+- !private ["SH", "Encoding"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "contents"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- !private ["SH", "diffuse"]
+- !private ["SH", "findStringSwitchCase"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- ["SH", "intValue"]
+- !private ["SH", "lightingModel"]
+- !private ["SH", "mappingChannel"]
+- !private ["SH", "multiply"]
+- !private ["SH", "path"]
+- !private ["SH", "physicallyBased"]
+- ["SH", "rawValue"]
+- !private ["SH", "setValue"]
+- !private ["SH", "shaderModifiers"]
+- !private ["SH", "specular"]
+- ["SH", "stringValue"]
+- !private ["SH", "subscript"]
+- !private ["SH", "surface"]
+- !private ["SH", "utf8"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- !private ["s22KeyedEncodingContainerV", "encodeIfPresent"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encodeIfPresent"]
+- !private ["So16SCNLightingModela", "physicallyBased"]
+- !private ["s25LosslessStringConvertibleP", "Encoding"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "Encoding"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", ""]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "contents"]
+- !private ["So8NSCodingP", "diffuse"]
+- !private ["So8NSCodingP", "lightingModel"]
+- !private ["So8NSCodingP", "mappingChannel"]
+- !private ["So8NSCodingP", "multiply"]
+- !private ["So8NSCodingP", "setValue"]
+- !private ["So8NSCodingP", "shaderModifiers"]
+- !private ["So8NSCodingP", "specular"]
+- !private ["So9NSCopyingP", "diffuse"]
+- !private ["So9NSCopyingP", "lightingModel"]
+- !private ["So9NSCopyingP", "multiply"]
+- !private ["So9NSCopyingP", "setValue"]
+- !private ["So9NSCopyingP", "shaderModifiers"]
+- !private ["So9NSCopyingP", "specular"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "bundleForClass"]
+- !private ["So8NSObjectC", "bundleWithIdentifier"]
+- !private ["So8NSObjectC", "bundleWithPath"]
+- !private ["So8NSObjectC", "bundleWithURL"]
+- !private ["So8NSObjectC", "contents"]
+- !private ["So8NSObjectC", "diffuse"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "lightingModel"]
+- !private ["So8NSObjectC", "mappingChannel"]
+- !private ["So8NSObjectC", "multiply"]
+- !private ["So8NSObjectC", "path"]
+- !private ["So8NSObjectC", "pathForAuxiliaryExecutable"]
+- !private ["So8NSObjectC", "pathForResource"]
+- !private ["So8NSObjectC", "setValue"]
+- !private ["So8NSObjectC", "shaderModifiers"]
+- !private ["So8NSObjectC", "specular"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "bundleForClass"]
+- !private ["So8NSObjectP", "bundleWithIdentifier"]
+- !private ["So8NSObjectP", "bundleWithPath"]
+- !private ["So8NSObjectP", "bundleWithURL"]
+- !private ["So8NSObjectP", "contents"]
+- !private ["So8NSObjectP", "diffuse"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "lightingModel"]
+- !private ["So8NSObjectP", "mappingChannel"]
+- !private ["So8NSObjectP", "multiply"]
+- !private ["So8NSObjectP", "path"]
+- !private ["So8NSObjectP", "pathForAuxiliaryExecutable"]
+- !private ["So8NSObjectP", "pathForResource"]
+- !private ["So8NSObjectP", "setValue"]
+- !private ["So8NSObjectP", "shaderModifiers"]
+- !private ["So8NSObjectP", "specular"]
+- !private ["So14NSSecureCodingP", "contents"]
+- !private ["So14NSSecureCodingP", "diffuse"]
+- !private ["So14NSSecureCodingP", "lightingModel"]
+- !private ["So14NSSecureCodingP", "mappingChannel"]
+- !private ["So14NSSecureCodingP", "multiply"]
+- !private ["So14NSSecureCodingP", "setValue"]
+- !private ["So14NSSecureCodingP", "shaderModifiers"]
+- !private ["So14NSSecureCodingP", "specular"]
+- !private ["Sk", ""]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "Encoding"]
+- !private ["Sm", ""]
+- !private ["Sm", "init"]
+- !private ["Sm", "subscript"]
+- ["SY", "=="]
+- ["SY", "Default_RawValue"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "debugDescription"]
+- ["SY", "description"]
+- !private ["SY", "findStringSwitchCase"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- !private ["SY", "init"]
+- ["SY", "intValue"]
+- !private ["SY", "physicallyBased"]
+- ["SY", "rawValue"]
+- ["SY", "stringValue"]
+- !private ["SY", "surface"]
+- !private ["SY", "utf8"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["So13SCNAnimatableP", "contents"]
+- !private ["So13SCNAnimatableP", "diffuse"]
+- !private ["So13SCNAnimatableP", "lightingModel"]
+- !private ["So13SCNAnimatableP", "mappingChannel"]
+- !private ["So13SCNAnimatableP", "multiply"]
+- !private ["So13SCNAnimatableP", "setValue"]
+- !private ["So13SCNAnimatableP", "shaderModifiers"]
+- !private ["So13SCNAnimatableP", "specular"]
+- !private ["So11SCNMaterialC", "diffuse"]
+- !private ["So11SCNMaterialC", "lightingModel"]
+- !private ["So11SCNMaterialC", "multiply"]
+- !private ["So11SCNMaterialC", "setValue"]
+- !private ["So11SCNMaterialC", "shaderModifiers"]
+- !private ["So11SCNMaterialC", "specular"]
+- !private ["So19SCNMaterialPropertyC", "contents"]
+- !private ["So19SCNMaterialPropertyC", "mappingChannel"]
+- !private ["So11SCNShadableP", "diffuse"]
+- !private ["So11SCNShadableP", "lightingModel"]
+- !private ["So11SCNShadableP", "multiply"]
+- !private ["So11SCNShadableP", "setValue"]
+- !private ["So11SCNShadableP", "shaderModifiers"]
+- !private ["So11SCNShadableP", "specular"]
+- !private ["So27SCNShaderModifierEntryPointa", "surface"]
+- !private ["ST", "Encoding"]
+- !private ["ST", ""]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["SS", "Encoding"]
+- !private ["SS", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["Sy", "Encoding"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "Encoding"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "Encoding"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So18UIFocusEnvironmentP", ""]
+- !private ["10Foundation3URLV", "init"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "Encoding"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "Encoding"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "Encoding"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "Encoding"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "Encoding"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", ""]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "physicallyBased"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "surface"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contents"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "diffuse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lightingModel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mappingChannel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "multiply"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "path"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shaderModifiers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "specular"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "contents"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "diffuse"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "lightingModel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "mappingChannel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "multiply"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "path"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setValue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shaderModifiers"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "specular"]
+- !private ["s21_ObjectiveCBridgeableP", "Encoding"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "physicallyBased"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "surface"]
+- !private ["s20_SwiftNewtypeWrapperP", "physicallyBased"]
+- !private ["s20_SwiftNewtypeWrapperP", "surface"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "So8NSBundleC"
+- !private "s7CVarArgP"
+- "s9CodingKeyP"
+- "12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV10CodingKeysO"
+- "12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV10CodingKeysO"
+- "12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV10CodingKeysO"
+- "12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV10CodingKeysO"
+- "12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV10CodingKeysO"
+- !private "12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV10CodingKeysO"
+- "12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV10CodingKeysO"
+- "12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV10CodingKeysO"
+- "12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV10CodingKeysO"
+- "12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV10CodingKeysO"
+- !private "12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV10CodingKeysO"
+- "12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV10CodingKeysO"
+- "12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV10CodingKeysO"
+- "12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV10CodingKeysO"
+- !private "12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV10CodingKeysO"
+- "12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV10CodingKeysO"
+- "12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV10CodingKeysO"
+- "12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV10CodingKeysO"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- !private "s7DecoderP"
+- !private "s26DefaultStringInterpolationV"
+- "SE"
+- !private "s7EncoderP"
+- !private "SS10FoundationE8EncodingV"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "12GLTFSceneKit11GLTFCodableP"
+- "12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV0cdef1_cdeF0V"
+- "12GLTFSceneKit038GLTFKHRMaterialsPbrSpecularGlossiness_cdeF9ExtensionV"
+- !private "12GLTFSceneKit20GLTFPropertyProtocolP"
+- "12GLTFSceneKit15GLTFTextureInfoV"
+- !private "12GLTFSceneKit14GLTFUnarchiverC"
+- "SH"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- !private "So16SCNLightingModela"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "So13SCNAnimatableP"
+- !private "So11SCNMaterialC"
+- !private "So19SCNMaterialPropertyC"
+- !private "So11SCNShadableP"
+- !private "So27SCNShaderModifierEntryPointa"
+- !private "ST"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So18UIFocusEnvironmentP"
+- !private "10Foundation3URLV"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ModelIO.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/simd.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/GLKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SceneKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SpriteKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/ppeltekis/Desktop/iOS Projects/e-Scapani/Museum AR App/Pods/Headers/Public/GLTFSceneKit/GLTFSceneKit-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Users/ppeltekis/Desktop/iOS Projects/e-Scapani/Museum AR App/Pods/Headers/Public/GLTFSceneKit/GLTFSceneKit.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/SpriteKit.framework/Headers/SpriteKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a47db575aaca378b8d27eb3307162b20"

@@ -1,0 +1,136 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GLTFUnarchiveError"
+- "GLTFArchiveError"
+provides-nominal:
+- "12GLTFSceneKit18GLTFUnarchiveErrorO"
+- "12GLTFSceneKit16GLTFArchiveErrorO"
+provides-member:
+- ["12GLTFSceneKit18GLTFUnarchiveErrorO", ""]
+- ["12GLTFSceneKit16GLTFArchiveErrorO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- "Error"
+- "GLTFArchiveError"
+- "GLTFUnarchiveError"
+- "LocalizedError"
+- !private "NSLocalizedString"
+- "String"
+- !private "StringLiteralType"
+depends-member:
+- ["s5ErrorP", "DataInconsistent"]
+- !private ["s5ErrorP", "NSLocalizedString"]
+- ["s5ErrorP", "NotSupported"]
+- ["s5ErrorP", "Unknown"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "code"]
+- ["s5ErrorP", "domain"]
+- ["s5ErrorP", "errorDescription"]
+- ["s5ErrorP", "failureReason"]
+- ["s5ErrorP", "helpAnchor"]
+- ["s5ErrorP", "recoverySuggestion"]
+- ["s5ErrorP", "userInfo"]
+- !private ["12GLTFSceneKit16GLTFArchiveErrorO", "NSLocalizedString"]
+- ["12GLTFSceneKit16GLTFArchiveErrorO", "String"]
+- ["12GLTFSceneKit16GLTFArchiveErrorO", "Unknown"]
+- ["12GLTFSceneKit16GLTFArchiveErrorO", ""]
+- ["12GLTFSceneKit16GLTFArchiveErrorO", "_code"]
+- ["12GLTFSceneKit16GLTFArchiveErrorO", "_domain"]
+- ["12GLTFSceneKit16GLTFArchiveErrorO", "_getEmbeddedNSError"]
+- ["12GLTFSceneKit16GLTFArchiveErrorO", "_userInfo"]
+- ["12GLTFSceneKit16GLTFArchiveErrorO", "code"]
+- ["12GLTFSceneKit16GLTFArchiveErrorO", "domain"]
+- ["12GLTFSceneKit16GLTFArchiveErrorO", "errorDescription"]
+- ["12GLTFSceneKit16GLTFArchiveErrorO", "failureReason"]
+- ["12GLTFSceneKit16GLTFArchiveErrorO", "helpAnchor"]
+- ["12GLTFSceneKit16GLTFArchiveErrorO", "recoverySuggestion"]
+- ["12GLTFSceneKit16GLTFArchiveErrorO", "userInfo"]
+- ["12GLTFSceneKit18GLTFUnarchiveErrorO", "DataInconsistent"]
+- !private ["12GLTFSceneKit18GLTFUnarchiveErrorO", "NSLocalizedString"]
+- ["12GLTFSceneKit18GLTFUnarchiveErrorO", "NotSupported"]
+- ["12GLTFSceneKit18GLTFUnarchiveErrorO", "String"]
+- ["12GLTFSceneKit18GLTFUnarchiveErrorO", "Unknown"]
+- ["12GLTFSceneKit18GLTFUnarchiveErrorO", ""]
+- ["12GLTFSceneKit18GLTFUnarchiveErrorO", "_code"]
+- ["12GLTFSceneKit18GLTFUnarchiveErrorO", "_domain"]
+- ["12GLTFSceneKit18GLTFUnarchiveErrorO", "_getEmbeddedNSError"]
+- ["12GLTFSceneKit18GLTFUnarchiveErrorO", "_userInfo"]
+- ["12GLTFSceneKit18GLTFUnarchiveErrorO", "code"]
+- ["12GLTFSceneKit18GLTFUnarchiveErrorO", "domain"]
+- ["12GLTFSceneKit18GLTFUnarchiveErrorO", "errorDescription"]
+- ["12GLTFSceneKit18GLTFUnarchiveErrorO", "failureReason"]
+- ["12GLTFSceneKit18GLTFUnarchiveErrorO", "helpAnchor"]
+- ["12GLTFSceneKit18GLTFUnarchiveErrorO", "recoverySuggestion"]
+- ["12GLTFSceneKit18GLTFUnarchiveErrorO", "userInfo"]
+- ["10Foundation14LocalizedErrorP", "DataInconsistent"]
+- !private ["10Foundation14LocalizedErrorP", "NSLocalizedString"]
+- ["10Foundation14LocalizedErrorP", "NotSupported"]
+- ["10Foundation14LocalizedErrorP", "Unknown"]
+- ["10Foundation14LocalizedErrorP", ""]
+- ["10Foundation14LocalizedErrorP", "_code"]
+- ["10Foundation14LocalizedErrorP", "_domain"]
+- ["10Foundation14LocalizedErrorP", "_getEmbeddedNSError"]
+- ["10Foundation14LocalizedErrorP", "_userInfo"]
+- ["10Foundation14LocalizedErrorP", "code"]
+- ["10Foundation14LocalizedErrorP", "domain"]
+- ["10Foundation14LocalizedErrorP", "errorDescription"]
+- ["10Foundation14LocalizedErrorP", "failureReason"]
+- ["10Foundation14LocalizedErrorP", "helpAnchor"]
+- ["10Foundation14LocalizedErrorP", "recoverySuggestion"]
+- ["10Foundation14LocalizedErrorP", "userInfo"]
+- !private ["So8NSCodingP", ""]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+depends-nominal:
+- "s5ErrorP"
+- "12GLTFSceneKit16GLTFArchiveErrorO"
+- "12GLTFSceneKit18GLTFUnarchiveErrorO"
+- "10Foundation14LocalizedErrorP"
+- !private "So8NSCodingP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ModelIO.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/simd.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/GLKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SceneKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SpriteKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/ppeltekis/Desktop/iOS Projects/e-Scapani/Museum AR App/Pods/Headers/Public/GLTFSceneKit/GLTFSceneKit-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Users/ppeltekis/Desktop/iOS Projects/e-Scapani/Museum AR App/Pods/Headers/Public/GLTFSceneKit/GLTFSceneKit.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/SpriteKit.framework/Headers/SpriteKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "fb2e63ccdc2ac196a36c1da4af9c1057"

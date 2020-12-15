@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Z9f-xY-Y75">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Scanner View Controller-->
+        <scene sceneID="m7t-gp-DlR">
+            <objects>
+                <viewController storyboardIdentifier="ScannerViewControllerIdentifier" modalTransitionStyle="partialCurl" modalPresentationStyle="fullScreen" id="Z9f-xY-Y75" customClass="ScannerViewController" customModule="Museum_AR_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bI6-dF-JKx"/>
+                        <viewControllerLayoutGuide type="bottom" id="0Nd-CK-5rP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Kdt-7d-3cP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xy9-Rj-48X" customClass="CameraAccessView" customModule="Museum_AR_App" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="0Nd-CK-5rP" firstAttribute="top" secondItem="Xy9-Rj-48X" secondAttribute="bottom" id="6w6-r7-1xj"/>
+                            <constraint firstItem="Xy9-Rj-48X" firstAttribute="top" secondItem="bI6-dF-JKx" secondAttribute="bottom" id="H6d-r9-F5V"/>
+                            <constraint firstItem="Xy9-Rj-48X" firstAttribute="leading" secondItem="Kdt-7d-3cP" secondAttribute="leading" id="cTp-5i-8er"/>
+                            <constraint firstAttribute="trailing" secondItem="Xy9-Rj-48X" secondAttribute="trailing" id="iNq-qM-tvk"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cameraAccessView" destination="Xy9-Rj-48X" id="Pys-iM-sK0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TkR-1L-HuV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="akv-K1-LbK">
+                    <connections>
+                        <action selector="tappedOnView:" destination="Z9f-xY-Y75" id="22n-qN-DjK"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="61.600000000000001" y="-170.46476761619192"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

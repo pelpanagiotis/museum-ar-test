@@ -1,0 +1,23 @@
+version: "Apple Swift version 5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)"
+options: "a2b58938994b43139c763b8753e8f83b"
+build_time: [1607513002, 676081000]
+inputs:
+  "/Users/ppeltekis/Desktop/iOS Projects/e-Scapani/Museum AR App/Pods/ARCL/Sources/ARKit-CoreLocation/ARKit_CoreLocation.swift": [1605865358, 492272007]
+  "/Users/ppeltekis/Desktop/iOS Projects/e-Scapani/Museum AR App/Pods/ARCL/Sources/ARKit-CoreLocation/Util/AttributedType.swift": [1605865358, 488283777]
+  "/Users/ppeltekis/Desktop/iOS Projects/e-Scapani/Museum AR App/Pods/ARCL/Sources/ARKit-CoreLocation/Extensions/BaseTypes+Extensions.swift": [1605865358, 491416489]
+  "/Users/ppeltekis/Desktop/iOS Projects/e-Scapani/Museum AR App/Pods/ARCL/Sources/ARKit-CoreLocation/Extensions/CGPoint+Extensions.swift": [1605865358, 491614283]
+  "/Users/ppeltekis/Desktop/iOS Projects/e-Scapani/Museum AR App/Pods/ARCL/Sources/ARKit-CoreLocation/Extensions/CLLocation+Extensions.swift": [1605865358, 491821782]
+  "/Users/ppeltekis/Desktop/iOS Projects/e-Scapani/Museum AR App/Pods/ARCL/Sources/ARKit-CoreLocation/Extensions/FloatingPoint+Radians.swift": [1605865358, 491110078]
+  "/Users/ppeltekis/Desktop/iOS Projects/e-Scapani/Museum AR App/Pods/ARCL/Sources/ARKit-CoreLocation/Nodes/LocationAnnotationNode.swift": [1605865358, 489385167]
+  "/Users/ppeltekis/Desktop/iOS Projects/e-Scapani/Museum AR App/Pods/ARCL/Sources/ARKit-CoreLocation/Location Manager/LocationManager.swift": [1605865358, 490580372]
+  "/Users/ppeltekis/Desktop/iOS Projects/e-Scapani/Museum AR App/Pods/ARCL/Sources/ARKit-CoreLocation/Nodes/LocationNode.swift": [1606398231, 630279589]
+  "/Users/ppeltekis/Desktop/iOS Projects/e-Scapani/Museum AR App/Pods/ARCL/Sources/ARKit-CoreLocation/Nodes/PolylineNode.swift": [1606428024, 43173270]
+  "/Users/ppeltekis/Desktop/iOS Projects/e-Scapani/Museum AR App/Pods/ARCL/Sources/ARKit-CoreLocation/Nodes/ScalingScheme.swift": [1605865358, 488747239]
+  "/Users/ppeltekis/Desktop/iOS Projects/e-Scapani/Museum AR App/Pods/ARCL/Sources/ARKit-CoreLocation/Location Manager/SceneLocationEstimate+Extensions.swift": [1605865358, 490232018]
+  "/Users/ppeltekis/Desktop/iOS Projects/e-Scapani/Museum AR App/Pods/ARCL/Sources/ARKit-CoreLocation/Location Manager/SceneLocationEstimate.swift": [1605865358, 490053940]
+  "/Users/ppeltekis/Desktop/iOS Projects/e-Scapani/Museum AR App/Pods/ARCL/Sources/ARKit-CoreLocation/Location Manager/SceneLocationManager.swift": [1605865358, 490408990]
+  "/Users/ppeltekis/Desktop/iOS Projects/e-Scapani/Museum AR App/Pods/ARCL/Sources/ARKit-CoreLocation/SceneLocationView+ARSCNViewDelegate.swift": [1605865358, 489566620]
+  "/Users/ppeltekis/Desktop/iOS Projects/e-Scapani/Museum AR App/Pods/ARCL/Sources/ARKit-CoreLocation/SceneLocationView.swift": [1606669974, 137466218]
+  "/Users/ppeltekis/Desktop/iOS Projects/e-Scapani/Museum AR App/Pods/ARCL/Sources/ARKit-CoreLocation/SceneLocationViewEstimateDelegate.swift": [1605865358, 493155650]
+  "/Users/ppeltekis/Desktop/iOS Projects/e-Scapani/Museum AR App/Pods/ARCL/Sources/ARKit-CoreLocation/Extensions/SCNNode+Extensions.swift": [1605865358, 492051443]
+  "/Users/ppeltekis/Desktop/iOS Projects/e-Scapani/Museum AR App/Pods/ARCL/Sources/ARKit-CoreLocation/Extensions/SCNVector3+Extensions.swift": [1605865358, 490920867]

@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)"
+options: "1d83a3f0fe3cca6de09d7d942748fb52"
+build_time: [1607513002, 676075000]
+inputs:
+  "/Users/ppeltekis/Desktop/iOS Projects/e-Scapani/Museum AR App/Pods/Zip/Zip/QuickZip.swift": [1605865376, 533723905]
+  "/Users/ppeltekis/Desktop/iOS Projects/e-Scapani/Museum AR App/Pods/Zip/Zip/Zip.swift": [1605865376, 534471082]
+  "/Users/ppeltekis/Desktop/iOS Projects/e-Scapani/Museum AR App/Pods/Zip/Zip/ZipUtilities.swift": [1605865376, 529196028]

@@ -1,0 +1,1057 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3374A418391593EE22B3FBE6 /* libPods-Museum AR App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4DDBBC13AFC3B00A0FF10A0 /* libPods-Museum AR App.a */; };
+		9214B6F0256D34E2003C16D5 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9214B6EF256D34E2003C16D5 /* SettingsViewController.swift */; };
+		9214B6F1256D34E2003C16D5 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9214B6E7256D34DB003C16D5 /* Utils.swift */; };
+		9214B6F2256D34E2003C16D5 /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9214B6E9256D34DD003C16D5 /* LocationCell.swift */; };
+		9214B6F3256D34E2003C16D5 /* NotSupportedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9214B6EB256D34DF003C16D5 /* NotSupportedViewController.swift */; };
+		9214B6F4256D34E2003C16D5 /* POIViewController+ARSCNViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9214B6ED256D34E1003C16D5 /* POIViewController+ARSCNViewDelegate.swift */; };
+		9214B6F5256D34E2003C16D5 /* OpenARCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9214B6EC256D34E0003C16D5 /* OpenARCell.swift */; };
+		9214B6F6256D34E2003C16D5 /* UIButton+Designable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9214B6E6256D34DA003C16D5 /* UIButton+Designable.swift */; };
+		9214B6F7256D34E2003C16D5 /* POIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9214B6EA256D34DE003C16D5 /* POIViewController.swift */; };
+		9267A7C72588C9A100D6E56A /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9267A7A72588C9A100D6E56A /* BaseViewController.m */; };
+		9267A7C82588C9A100D6E56A /* BasicDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9267A7A82588C9A100D6E56A /* BasicDemoViewController.m */; };
+		9267A7CA2588C9A100D6E56A /* LocationProviderSensorStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 9267A7AD2588C9A100D6E56A /* LocationProviderSensorStatus.m */; };
+		9267A7CB2588C9A100D6E56A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9267A7B22588C9A100D6E56A /* LaunchScreen.storyboard */; };
+		9267A7CD2588C9A100D6E56A /* CoarseRelocDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9267A7B62588C9A100D6E56A /* CoarseRelocDemoViewController.m */; };
+		9267A7CE2588C9A100D6E56A /* MenuScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9267A7B72588C9A100D6E56A /* MenuScreenViewController.m */; };
+		9267A7D02588C9A100D6E56A /* NearbyDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9267A7BA2588C9A100D6E56A /* NearbyDemoViewController.m */; };
+		9267A7D12588C9A100D6E56A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9267A7BB2588C9A100D6E56A /* AppDelegate.m */; };
+		9267A7D22588C9A100D6E56A /* AuthenticationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9267A7BC2588C9A100D6E56A /* AuthenticationHelper.m */; };
+		9267A7D32588C9A100D6E56A /* SensorStatusView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9267A7C12588C9A100D6E56A /* SensorStatusView.xib */; };
+		9267A7D42588C9A100D6E56A /* SensorStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9267A7C22588C9A100D6E56A /* SensorStatusView.m */; };
+		9267A7D62588C9A100D6E56A /* SharedDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9267A7C52588C9A100D6E56A /* SharedDemoViewController.m */; };
+		9267A7D72588C9A100D6E56A /* NewInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9267A7C62588C9A100D6E56A /* NewInfo.plist */; };
+		9267A8082588CD6300D6E56A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9267A8072588CD6300D6E56A /* Images.xcassets */; };
+		9267A8132588D2F900D6E56A /* MainSharedObjC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9267A8122588D2F900D6E56A /* MainSharedObjC.storyboard */; };
+		927FAE9B256D35CA0060573F /* MainAR.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 927FAE9A256D35CA0060573F /* MainAR.storyboard */; };
+		9285B4072573AFA10003800E /* SceneLocationViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9285B4062573AFA10003800E /* SceneLocationViewExtension.swift */; };
+		92B33E2625651A0900C45E12 /* AssetsViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B33E2525651A0900C45E12 /* AssetsViewerViewController.swift */; };
+		92B33E2E25651A1500C45E12 /* AssetsViewer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B33E2D25651A1500C45E12 /* AssetsViewer.storyboard */; };
+		92F4D24E2564624300A5D27A /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F4D24D2564624300A5D27A /* LaunchViewController.swift */; };
+		92F949942567C63400AAF953 /* ARLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F949932567C63400AAF953 /* ARLocationViewController.swift */; };
+		B809A5D50B730E31468C7A6E /* libPods-Museum AR AppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97C5937501A7EF11460EE6D0 /* libPods-Museum AR AppTests.a */; };
+		C44308FA24D1A1B500186DAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44308F924D1A1B500186DAD /* AppDelegate.swift */; };
+		C44308FC24D1A1B500186DAD /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = C44308FB24D1A1B500186DAD /* art.scnassets */; };
+		C44308FE24D1A1B500186DAD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44308FD24D1A1B500186DAD /* MainViewController.swift */; };
+		C443090124D1A1B500186DAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C44308FF24D1A1B500186DAD /* Main.storyboard */; };
+		C443090624D1A1B900186DAD /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C443090424D1A1B900186DAD /* Launch.storyboard */; };
+		C443091124D1A1B900186DAD /* Museum_AR_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C443091024D1A1B900186DAD /* Museum_AR_AppTests.swift */; };
+		C443091C24D1A1B900186DAD /* Museum_AR_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C443091B24D1A1B900186DAD /* Museum_AR_AppUITests.swift */; };
+		C443092C24D1A97100186DAD /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C443092B24D1A97100186DAD /* NetworkManager.swift */; };
+		C4608AB924D81D7A00AC4AA4 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4608AB824D81D7A00AC4AA4 /* Grid.swift */; };
+		C46C0D452536FEBD00B3B46F /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46C0D442536FEBD00B3B46F /* StorageManager.swift */; };
+		ECB53D7BCC154ED028D923BB /* libPods-Museum AR App-Museum AR AppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F47CDD74B0DB93A3E3E443 /* libPods-Museum AR App-Museum AR AppUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C443090D24D1A1B900186DAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C44308EE24D1A1B500186DAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C44308F524D1A1B500186DAD;
+			remoteInfo = "Museum AR App";
+		};
+		C443091824D1A1B900186DAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C44308EE24D1A1B500186DAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C44308F524D1A1B500186DAD;
+			remoteInfo = "Museum AR App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		139241159708D327D4437742 /* Pods-Museum AR AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Museum AR AppTests.release.xcconfig"; path = "Target Support Files/Pods-Museum AR AppTests/Pods-Museum AR AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		1D5660B6F9AA89ED7F9C11EB /* Pods-Museum AR App-Museum AR AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Museum AR App-Museum AR AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Museum AR App-Museum AR AppUITests/Pods-Museum AR App-Museum AR AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2E699F8B88483756F2738D0F /* Pods-Museum AR App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Museum AR App.debug.xcconfig"; path = "Target Support Files/Pods-Museum AR App/Pods-Museum AR App.debug.xcconfig"; sourceTree = "<group>"; };
+		2EFB45202BB1377AEC3C38D2 /* Pods-Museum AR AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Museum AR AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Museum AR AppTests/Pods-Museum AR AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		49F47CDD74B0DB93A3E3E443 /* libPods-Museum AR App-Museum AR AppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Museum AR App-Museum AR AppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9214B6E6256D34DA003C16D5 /* UIButton+Designable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Designable.swift"; sourceTree = "<group>"; };
+		9214B6E7256D34DB003C16D5 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		9214B6E9256D34DD003C16D5 /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
+		9214B6EA256D34DE003C16D5 /* POIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POIViewController.swift; sourceTree = "<group>"; };
+		9214B6EB256D34DF003C16D5 /* NotSupportedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotSupportedViewController.swift; sourceTree = "<group>"; };
+		9214B6EC256D34E0003C16D5 /* OpenARCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenARCell.swift; sourceTree = "<group>"; };
+		9214B6ED256D34E1003C16D5 /* POIViewController+ARSCNViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "POIViewController+ARSCNViewDelegate.swift"; sourceTree = "<group>"; };
+		9214B6EF256D34E2003C16D5 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		9267A79F2588C96000D6E56A /* Museum AR App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Museum AR App-Bridging-Header.h"; path = "Museum AR App/SampleObjC/Museum AR App-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		9267A7A42588C9A100D6E56A /* MenuScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuScreenViewController.h; sourceTree = "<group>"; };
+		9267A7A52588C9A100D6E56A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9267A7A62588C9A100D6E56A /* NearbyDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearbyDemoViewController.h; sourceTree = "<group>"; };
+		9267A7A72588C9A100D6E56A /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		9267A7A82588C9A100D6E56A /* BasicDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicDemoViewController.m; sourceTree = "<group>"; };
+		9267A7AA2588C9A100D6E56A /* AuthenticationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthenticationHelper.h; sourceTree = "<group>"; };
+		9267A7AB2588C9A100D6E56A /* Museum AR App-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Museum AR App-Bridging-Header.h"; sourceTree = "<group>"; };
+		9267A7AD2588C9A100D6E56A /* LocationProviderSensorStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationProviderSensorStatus.m; sourceTree = "<group>"; };
+		9267A7AE2588C9A100D6E56A /* SensorStatusModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SensorStatusModel.h; sourceTree = "<group>"; };
+		9267A7AF2588C9A100D6E56A /* LocationProviderSensorStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationProviderSensorStatus.h; sourceTree = "<group>"; };
+		9267A7B02588C9A100D6E56A /* SensorStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SensorStatus.h; sourceTree = "<group>"; };
+		9267A7B12588C9A100D6E56A /* SharedDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedDemoViewController.h; sourceTree = "<group>"; };
+		9267A7B32588C9A100D6E56A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9267A7B62588C9A100D6E56A /* CoarseRelocDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoarseRelocDemoViewController.m; sourceTree = "<group>"; };
+		9267A7B72588C9A100D6E56A /* MenuScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuScreenViewController.m; sourceTree = "<group>"; };
+		9267A7B92588C9A100D6E56A /* SampleObjC.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = SampleObjC.entitlements; sourceTree = "<group>"; };
+		9267A7BA2588C9A100D6E56A /* NearbyDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearbyDemoViewController.m; sourceTree = "<group>"; };
+		9267A7BB2588C9A100D6E56A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9267A7BC2588C9A100D6E56A /* AuthenticationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthenticationHelper.m; sourceTree = "<group>"; };
+		9267A7BD2588C9A100D6E56A /* BasicDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicDemoViewController.h; sourceTree = "<group>"; };
+		9267A7BE2588C9A100D6E56A /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		9267A7C02588C9A100D6E56A /* SensorStatusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SensorStatusView.h; sourceTree = "<group>"; };
+		9267A7C12588C9A100D6E56A /* SensorStatusView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SensorStatusView.xib; sourceTree = "<group>"; };
+		9267A7C22588C9A100D6E56A /* SensorStatusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SensorStatusView.m; sourceTree = "<group>"; };
+		9267A7C32588C9A100D6E56A /* CoarseRelocDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoarseRelocDemoViewController.h; sourceTree = "<group>"; };
+		9267A7C52588C9A100D6E56A /* SharedDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedDemoViewController.m; sourceTree = "<group>"; };
+		9267A7C62588C9A100D6E56A /* NewInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NewInfo.plist; sourceTree = "<group>"; };
+		9267A8072588CD6300D6E56A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9267A8122588D2F900D6E56A /* MainSharedObjC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainSharedObjC.storyboard; sourceTree = "<group>"; };
+		927FAE9A256D35CA0060573F /* MainAR.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainAR.storyboard; sourceTree = "<group>"; };
+		9285B4062573AFA10003800E /* SceneLocationViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneLocationViewExtension.swift; sourceTree = "<group>"; };
+		92B33E2525651A0900C45E12 /* AssetsViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetsViewerViewController.swift; sourceTree = "<group>"; };
+		92B33E2D25651A1500C45E12 /* AssetsViewer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AssetsViewer.storyboard; sourceTree = "<group>"; };
+		92F4D24D2564624300A5D27A /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		92F949932567C63400AAF953 /* ARLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARLocationViewController.swift; sourceTree = "<group>"; };
+		97C5937501A7EF11460EE6D0 /* libPods-Museum AR AppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Museum AR AppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B905DE62592FC44C3144D26A /* Pods-Museum AR App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Museum AR App.release.xcconfig"; path = "Target Support Files/Pods-Museum AR App/Pods-Museum AR App.release.xcconfig"; sourceTree = "<group>"; };
+		C44308F624D1A1B500186DAD /* Museum AR App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Museum AR App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C44308F924D1A1B500186DAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C44308FB24D1A1B500186DAD /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		C44308FD24D1A1B500186DAD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C443090024D1A1B500186DAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C443090524D1A1B900186DAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Launch.storyboard; sourceTree = "<group>"; };
+		C443090C24D1A1B900186DAD /* Museum AR AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Museum AR AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C443091024D1A1B900186DAD /* Museum_AR_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Museum_AR_AppTests.swift; sourceTree = "<group>"; };
+		C443091224D1A1B900186DAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C443091724D1A1B900186DAD /* Museum AR AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Museum AR AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C443091B24D1A1B900186DAD /* Museum_AR_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Museum_AR_AppUITests.swift; sourceTree = "<group>"; };
+		C443091D24D1A1B900186DAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C443092B24D1A97100186DAD /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		C4608AB824D81D7A00AC4AA4 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		C46C0D442536FEBD00B3B46F /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		D1783F46848CCE798DB00BF4 /* Pods-Museum AR App-Museum AR AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Museum AR App-Museum AR AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Museum AR App-Museum AR AppUITests/Pods-Museum AR App-Museum AR AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F4DDBBC13AFC3B00A0FF10A0 /* libPods-Museum AR App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Museum AR App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C44308F324D1A1B500186DAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3374A418391593EE22B3FBE6 /* libPods-Museum AR App.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C443090924D1A1B900186DAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B809A5D50B730E31468C7A6E /* libPods-Museum AR AppTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C443091424D1A1B900186DAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB53D7BCC154ED028D923BB /* libPods-Museum AR App-Museum AR AppUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B49A06E1549DE358FE0CDAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E699F8B88483756F2738D0F /* Pods-Museum AR App.debug.xcconfig */,
+				B905DE62592FC44C3144D26A /* Pods-Museum AR App.release.xcconfig */,
+				D1783F46848CCE798DB00BF4 /* Pods-Museum AR App-Museum AR AppUITests.debug.xcconfig */,
+				1D5660B6F9AA89ED7F9C11EB /* Pods-Museum AR App-Museum AR AppUITests.release.xcconfig */,
+				2EFB45202BB1377AEC3C38D2 /* Pods-Museum AR AppTests.debug.xcconfig */,
+				139241159708D327D4437742 /* Pods-Museum AR AppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9267A7A32588C9A100D6E56A /* SampleObjC */ = {
+			isa = PBXGroup;
+			children = (
+				9267A8122588D2F900D6E56A /* MainSharedObjC.storyboard */,
+				9267A79F2588C96000D6E56A /* Museum AR App-Bridging-Header.h */,
+				9267A7A42588C9A100D6E56A /* MenuScreenViewController.h */,
+				9267A7A52588C9A100D6E56A /* AppDelegate.h */,
+				9267A7A62588C9A100D6E56A /* NearbyDemoViewController.h */,
+				9267A7A72588C9A100D6E56A /* BaseViewController.m */,
+				9267A7A82588C9A100D6E56A /* BasicDemoViewController.m */,
+				9267A7AA2588C9A100D6E56A /* AuthenticationHelper.h */,
+				9267A7AB2588C9A100D6E56A /* Museum AR App-Bridging-Header.h */,
+				9267A7AC2588C9A100D6E56A /* Models */,
+				9267A7B12588C9A100D6E56A /* SharedDemoViewController.h */,
+				9267A7B22588C9A100D6E56A /* LaunchScreen.storyboard */,
+				9267A7B62588C9A100D6E56A /* CoarseRelocDemoViewController.m */,
+				9267A7B72588C9A100D6E56A /* MenuScreenViewController.m */,
+				9267A7B92588C9A100D6E56A /* SampleObjC.entitlements */,
+				9267A7BA2588C9A100D6E56A /* NearbyDemoViewController.m */,
+				9267A7BB2588C9A100D6E56A /* AppDelegate.m */,
+				9267A7BC2588C9A100D6E56A /* AuthenticationHelper.m */,
+				9267A7BD2588C9A100D6E56A /* BasicDemoViewController.h */,
+				9267A7BE2588C9A100D6E56A /* BaseViewController.h */,
+				9267A7BF2588C9A100D6E56A /* Views */,
+				9267A7C32588C9A100D6E56A /* CoarseRelocDemoViewController.h */,
+				9267A7C52588C9A100D6E56A /* SharedDemoViewController.m */,
+				9267A7C62588C9A100D6E56A /* NewInfo.plist */,
+			);
+			path = SampleObjC;
+			sourceTree = "<group>";
+		};
+		9267A7AC2588C9A100D6E56A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9267A7AD2588C9A100D6E56A /* LocationProviderSensorStatus.m */,
+				9267A7AE2588C9A100D6E56A /* SensorStatusModel.h */,
+				9267A7AF2588C9A100D6E56A /* LocationProviderSensorStatus.h */,
+				9267A7B02588C9A100D6E56A /* SensorStatus.h */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9267A7BF2588C9A100D6E56A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9267A7C02588C9A100D6E56A /* SensorStatusView.h */,
+				9267A7C12588C9A100D6E56A /* SensorStatusView.xib */,
+				9267A7C22588C9A100D6E56A /* SensorStatusView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		926C45AD257A28F400114F43 /* ARCLExample */ = {
+			isa = PBXGroup;
+			children = (
+				9214B6E9256D34DD003C16D5 /* LocationCell.swift */,
+				9214B6EB256D34DF003C16D5 /* NotSupportedViewController.swift */,
+				9214B6EC256D34E0003C16D5 /* OpenARCell.swift */,
+				9214B6EA256D34DE003C16D5 /* POIViewController.swift */,
+				9214B6ED256D34E1003C16D5 /* POIViewController+ARSCNViewDelegate.swift */,
+				9214B6EF256D34E2003C16D5 /* SettingsViewController.swift */,
+				9214B6E6256D34DA003C16D5 /* UIButton+Designable.swift */,
+				9214B6E7256D34DB003C16D5 /* Utils.swift */,
+			);
+			path = ARCLExample;
+			sourceTree = "<group>";
+		};
+		92B33E24256519F200C45E12 /* AssetsViewer */ = {
+			isa = PBXGroup;
+			children = (
+				92B33E2525651A0900C45E12 /* AssetsViewerViewController.swift */,
+				92B33E2D25651A1500C45E12 /* AssetsViewer.storyboard */,
+			);
+			path = AssetsViewer;
+			sourceTree = "<group>";
+		};
+		92F4D24A2564620000A5D27A /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				92F949922567C61B00AAF953 /* ARLocation */,
+				92B33E24256519F200C45E12 /* AssetsViewer */,
+				92F4D24C2564622200A5D27A /* Launch */,
+				92F4D24B2564621C00A5D27A /* Main */,
+				927FAE9A256D35CA0060573F /* MainAR.storyboard */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		92F4D24B2564621C00A5D27A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C44308FD24D1A1B500186DAD /* MainViewController.swift */,
+				C44308FF24D1A1B500186DAD /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		92F4D24C2564622200A5D27A /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				C443090424D1A1B900186DAD /* Launch.storyboard */,
+				92F4D24D2564624300A5D27A /* LaunchViewController.swift */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		92F949922567C61B00AAF953 /* ARLocation */ = {
+			isa = PBXGroup;
+			children = (
+				92F949932567C63400AAF953 /* ARLocationViewController.swift */,
+			);
+			path = ARLocation;
+			sourceTree = "<group>";
+		};
+		C44308ED24D1A1B500186DAD = {
+			isa = PBXGroup;
+			children = (
+				C44308F824D1A1B500186DAD /* Museum AR App */,
+				C443090F24D1A1B900186DAD /* Museum AR AppTests */,
+				C443091A24D1A1B900186DAD /* Museum AR AppUITests */,
+				C44308F724D1A1B500186DAD /* Products */,
+				8B49A06E1549DE358FE0CDAC /* Pods */,
+				F33C02425127FA34FB912A67 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C44308F724D1A1B500186DAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C44308F624D1A1B500186DAD /* Museum AR App.app */,
+				C443090C24D1A1B900186DAD /* Museum AR AppTests.xctest */,
+				C443091724D1A1B900186DAD /* Museum AR AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C44308F824D1A1B500186DAD /* Museum AR App */ = {
+			isa = PBXGroup;
+			children = (
+				9267A8072588CD6300D6E56A /* Images.xcassets */,
+				9267A7A32588C9A100D6E56A /* SampleObjC */,
+				926C45AD257A28F400114F43 /* ARCLExample */,
+				92F4D24A2564620000A5D27A /* Scenes */,
+				C460589E24D2B0BC007378AA /* Shared */,
+				C44308F924D1A1B500186DAD /* AppDelegate.swift */,
+				C44308FB24D1A1B500186DAD /* art.scnassets */,
+				C4608AB824D81D7A00AC4AA4 /* Grid.swift */,
+				9285B4062573AFA10003800E /* SceneLocationViewExtension.swift */,
+			);
+			path = "Museum AR App";
+			sourceTree = "<group>";
+		};
+		C443090F24D1A1B900186DAD /* Museum AR AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C443091024D1A1B900186DAD /* Museum_AR_AppTests.swift */,
+				C443091224D1A1B900186DAD /* Info.plist */,
+			);
+			path = "Museum AR AppTests";
+			sourceTree = "<group>";
+		};
+		C443091A24D1A1B900186DAD /* Museum AR AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C443091B24D1A1B900186DAD /* Museum_AR_AppUITests.swift */,
+				C443091D24D1A1B900186DAD /* Info.plist */,
+			);
+			path = "Museum AR AppUITests";
+			sourceTree = "<group>";
+		};
+		C460589E24D2B0BC007378AA /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C46C0D432536FEB200B3B46F /* Storage */,
+				C460589F24D2B0C6007378AA /* Networking */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		C460589F24D2B0C6007378AA /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				C443092B24D1A97100186DAD /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		C46C0D432536FEB200B3B46F /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				C46C0D442536FEBD00B3B46F /* StorageManager.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		F33C02425127FA34FB912A67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4DDBBC13AFC3B00A0FF10A0 /* libPods-Museum AR App.a */,
+				49F47CDD74B0DB93A3E3E443 /* libPods-Museum AR App-Museum AR AppUITests.a */,
+				97C5937501A7EF11460EE6D0 /* libPods-Museum AR AppTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C44308F524D1A1B500186DAD /* Museum AR App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C443092024D1A1B900186DAD /* Build configuration list for PBXNativeTarget "Museum AR App" */;
+			buildPhases = (
+				2E5A7134F36FEA399FD07604 /* [CP] Check Pods Manifest.lock */,
+				C44308F224D1A1B500186DAD /* Sources */,
+				C44308F324D1A1B500186DAD /* Frameworks */,
+				C44308F424D1A1B500186DAD /* Resources */,
+				3E163C8F07DE464075FD0860 /* [CP] Copy Pods Resources */,
+				4B69D2255B46F524FF42ABA6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Museum AR App";
+			productName = "Museum AR App";
+			productReference = C44308F624D1A1B500186DAD /* Museum AR App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C443090B24D1A1B900186DAD /* Museum AR AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C443092324D1A1B900186DAD /* Build configuration list for PBXNativeTarget "Museum AR AppTests" */;
+			buildPhases = (
+				BD349FD35E75CD78651D7F25 /* [CP] Check Pods Manifest.lock */,
+				C443090824D1A1B900186DAD /* Sources */,
+				C443090924D1A1B900186DAD /* Frameworks */,
+				C443090A24D1A1B900186DAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C443090E24D1A1B900186DAD /* PBXTargetDependency */,
+			);
+			name = "Museum AR AppTests";
+			productName = "Museum AR AppTests";
+			productReference = C443090C24D1A1B900186DAD /* Museum AR AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C443091624D1A1B900186DAD /* Museum AR AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C443092624D1A1B900186DAD /* Build configuration list for PBXNativeTarget "Museum AR AppUITests" */;
+			buildPhases = (
+				488F9423F2F62642291354DB /* [CP] Check Pods Manifest.lock */,
+				C443091324D1A1B900186DAD /* Sources */,
+				C443091424D1A1B900186DAD /* Frameworks */,
+				C443091524D1A1B900186DAD /* Resources */,
+				280B0A09227F77126A93B0BC /* [CP] Copy Pods Resources */,
+				60E6A62B13231A50B477B629 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C443091924D1A1B900186DAD /* PBXTargetDependency */,
+			);
+			name = "Museum AR AppUITests";
+			productName = "Museum AR AppUITests";
+			productReference = C443091724D1A1B900186DAD /* Museum AR AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C44308EE24D1A1B500186DAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Panos Peltekis";
+				TargetAttributes = {
+					C44308F524D1A1B500186DAD = {
+						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1220;
+					};
+					C443090B24D1A1B900186DAD = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = C44308F524D1A1B500186DAD;
+					};
+					C443091624D1A1B900186DAD = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = C44308F524D1A1B500186DAD;
+					};
+				};
+			};
+			buildConfigurationList = C44308F124D1A1B500186DAD /* Build configuration list for PBXProject "Museum AR App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C44308ED24D1A1B500186DAD;
+			productRefGroup = C44308F724D1A1B500186DAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C44308F524D1A1B500186DAD /* Museum AR App */,
+				C443090B24D1A1B900186DAD /* Museum AR AppTests */,
+				C443091624D1A1B900186DAD /* Museum AR AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C44308F424D1A1B500186DAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44308FC24D1A1B500186DAD /* art.scnassets in Resources */,
+				9267A7CB2588C9A100D6E56A /* LaunchScreen.storyboard in Resources */,
+				C443090624D1A1B900186DAD /* Launch.storyboard in Resources */,
+				9267A7D72588C9A100D6E56A /* NewInfo.plist in Resources */,
+				9267A8082588CD6300D6E56A /* Images.xcassets in Resources */,
+				92B33E2E25651A1500C45E12 /* AssetsViewer.storyboard in Resources */,
+				C443090124D1A1B500186DAD /* Main.storyboard in Resources */,
+				9267A7D32588C9A100D6E56A /* SensorStatusView.xib in Resources */,
+				9267A8132588D2F900D6E56A /* MainSharedObjC.storyboard in Resources */,
+				927FAE9B256D35CA0060573F /* MainAR.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C443090A24D1A1B900186DAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C443091524D1A1B900186DAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		280B0A09227F77126A93B0BC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Museum AR App-Museum AR AppUITests/Pods-Museum AR App-Museum AR AppUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Museum AR App-Museum AR AppUITests/Pods-Museum AR App-Museum AR AppUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Museum AR App-Museum AR AppUITests/Pods-Museum AR App-Museum AR AppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E5A7134F36FEA399FD07604 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Museum AR App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E163C8F07DE464075FD0860 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Museum AR App/Pods-Museum AR App-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Museum AR App/Pods-Museum AR App-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Museum AR App/Pods-Museum AR App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		488F9423F2F62642291354DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Museum AR App-Museum AR AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B69D2255B46F524FF42ABA6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Museum AR App/Pods-Museum AR App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Museum AR App/Pods-Museum AR App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Museum AR App/Pods-Museum AR App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60E6A62B13231A50B477B629 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Museum AR App-Museum AR AppUITests/Pods-Museum AR App-Museum AR AppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Museum AR App-Museum AR AppUITests/Pods-Museum AR App-Museum AR AppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Museum AR App-Museum AR AppUITests/Pods-Museum AR App-Museum AR AppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD349FD35E75CD78651D7F25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Museum AR AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C44308F224D1A1B500186DAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C443092C24D1A97100186DAD /* NetworkManager.swift in Sources */,
+				92F949942567C63400AAF953 /* ARLocationViewController.swift in Sources */,
+				9214B6F4256D34E2003C16D5 /* POIViewController+ARSCNViewDelegate.swift in Sources */,
+				C44308FE24D1A1B500186DAD /* MainViewController.swift in Sources */,
+				9214B6F2256D34E2003C16D5 /* LocationCell.swift in Sources */,
+				C44308FA24D1A1B500186DAD /* AppDelegate.swift in Sources */,
+				9267A7D02588C9A100D6E56A /* NearbyDemoViewController.m in Sources */,
+				9214B6F1256D34E2003C16D5 /* Utils.swift in Sources */,
+				9267A7CA2588C9A100D6E56A /* LocationProviderSensorStatus.m in Sources */,
+				9267A7C82588C9A100D6E56A /* BasicDemoViewController.m in Sources */,
+				9267A7D12588C9A100D6E56A /* AppDelegate.m in Sources */,
+				9267A7CE2588C9A100D6E56A /* MenuScreenViewController.m in Sources */,
+				9214B6F5256D34E2003C16D5 /* OpenARCell.swift in Sources */,
+				92B33E2625651A0900C45E12 /* AssetsViewerViewController.swift in Sources */,
+				9267A7D62588C9A100D6E56A /* SharedDemoViewController.m in Sources */,
+				9214B6F3256D34E2003C16D5 /* NotSupportedViewController.swift in Sources */,
+				9267A7D22588C9A100D6E56A /* AuthenticationHelper.m in Sources */,
+				C4608AB924D81D7A00AC4AA4 /* Grid.swift in Sources */,
+				92F4D24E2564624300A5D27A /* LaunchViewController.swift in Sources */,
+				9267A7CD2588C9A100D6E56A /* CoarseRelocDemoViewController.m in Sources */,
+				9267A7D42588C9A100D6E56A /* SensorStatusView.m in Sources */,
+				C46C0D452536FEBD00B3B46F /* StorageManager.swift in Sources */,
+				9267A7C72588C9A100D6E56A /* BaseViewController.m in Sources */,
+				9285B4072573AFA10003800E /* SceneLocationViewExtension.swift in Sources */,
+				9214B6F0256D34E2003C16D5 /* SettingsViewController.swift in Sources */,
+				9214B6F7256D34E2003C16D5 /* POIViewController.swift in Sources */,
+				9214B6F6256D34E2003C16D5 /* UIButton+Designable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C443090824D1A1B900186DAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C443091124D1A1B900186DAD /* Museum_AR_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C443091324D1A1B900186DAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C443091C24D1A1B900186DAD /* Museum_AR_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C443090E24D1A1B900186DAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C44308F524D1A1B500186DAD /* Museum AR App */;
+			targetProxy = C443090D24D1A1B900186DAD /* PBXContainerItemProxy */;
+		};
+		C443091924D1A1B900186DAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C44308F524D1A1B500186DAD /* Museum AR App */;
+			targetProxy = C443091824D1A1B900186DAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9267A7B22588C9A100D6E56A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9267A7B32588C9A100D6E56A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C44308FF24D1A1B500186DAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C443090024D1A1B500186DAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C443090424D1A1B900186DAD /* Launch.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C443090524D1A1B900186DAD /* Base */,
+			);
+			name = Launch.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C443091E24D1A1B900186DAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C443091F24D1A1B900186DAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C443092124D1A1B900186DAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E699F8B88483756F2738D0F /* Pods-Museum AR App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 79ADF5DX6Z;
+				INFOPLIST_FILE = "Museum AR App/SampleObjC/NewInfo.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arxnet.testmuseum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Museum AR App/SampleObjC/Museum AR App-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C443092224D1A1B900186DAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B905DE62592FC44C3144D26A /* Pods-Museum AR App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 79ADF5DX6Z;
+				INFOPLIST_FILE = "Museum AR App/SampleObjC/NewInfo.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arxnet.testmuseum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Museum AR App/SampleObjC/Museum AR App-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C443092424D1A1B900186DAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EFB45202BB1377AEC3C38D2 /* Pods-Museum AR AppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 989DQYDD5H;
+				INFOPLIST_FILE = "Museum AR AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Museum-AR-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Museum AR App.app/Museum AR App";
+			};
+			name = Debug;
+		};
+		C443092524D1A1B900186DAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 139241159708D327D4437742 /* Pods-Museum AR AppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 989DQYDD5H;
+				INFOPLIST_FILE = "Museum AR AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Museum-AR-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Museum AR App.app/Museum AR App";
+			};
+			name = Release;
+		};
+		C443092724D1A1B900186DAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1783F46848CCE798DB00BF4 /* Pods-Museum AR App-Museum AR AppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 989DQYDD5H;
+				INFOPLIST_FILE = "Museum AR AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Museum-AR-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Museum AR App";
+			};
+			name = Debug;
+		};
+		C443092824D1A1B900186DAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D5660B6F9AA89ED7F9C11EB /* Pods-Museum AR App-Museum AR AppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 989DQYDD5H;
+				INFOPLIST_FILE = "Museum AR AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Museum-AR-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Museum AR App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C44308F124D1A1B500186DAD /* Build configuration list for PBXProject "Museum AR App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C443091E24D1A1B900186DAD /* Debug */,
+				C443091F24D1A1B900186DAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C443092024D1A1B900186DAD /* Build configuration list for PBXNativeTarget "Museum AR App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C443092124D1A1B900186DAD /* Debug */,
+				C443092224D1A1B900186DAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C443092324D1A1B900186DAD /* Build configuration list for PBXNativeTarget "Museum AR AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C443092424D1A1B900186DAD /* Debug */,
+				C443092524D1A1B900186DAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C443092624D1A1B900186DAD /* Build configuration list for PBXNativeTarget "Museum AR AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C443092724D1A1B900186DAD /* Debug */,
+				C443092824D1A1B900186DAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C44308EE24D1A1B500186DAD /* Project object */;
+}

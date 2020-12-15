@@ -1,0 +1,12 @@
+module Zip {
+  umbrella header "Zip-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+
+module Zip.Swift {
+  header "/Users/ppeltekis/Desktop/iOS Projects/e-Scapani/Museum AR App/Build/Products/Debug-iphoneos/Zip/Swift Compatibility Header/Zip-Swift.h"
+  requires objc
+}

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dCQ-dj-y2M">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Menu Screen View Controller-->
+        <scene sceneID="CdD-vR-hDE">
+            <objects>
+                <viewController id="dCQ-dj-y2M" userLabel="Menu Screen View Controller" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yIX-OY-B1L">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" alpha="0.60000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="uOm-jN-rhC">
+                                <rect key="frame" x="94.5" y="700" width="225" height="36"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Tap to start Nearby Demo">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Upq-gh-e6X" kind="presentation" animates="NO" id="fxi-u9-HzK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.60000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="5oY-fd-AHi">
+                                <rect key="frame" x="102.5" y="766" width="209" height="36"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Tap to start Basic Demo">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="5vf-Ft-CrJ" kind="presentation" animates="NO" id="Ve8-CJ-6b2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.60000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="MZz-cF-NfH" userLabel="Tap to start Coarse Reloc Demo">
+                                <rect key="frame" x="68.5" y="634" width="277" height="36"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Tap to start Coarse Reloc Demo">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="iIA-z0-aWD" kind="presentation" id="dvE-u1-849"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="QO7-d7-svP"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="5oY-fd-AHi" firstAttribute="centerX" secondItem="yIX-OY-B1L" secondAttribute="centerX" id="Dom-3x-2k2"/>
+                            <constraint firstItem="5oY-fd-AHi" firstAttribute="top" secondItem="uOm-jN-rhC" secondAttribute="bottom" constant="30" id="cpM-PD-OwL"/>
+                            <constraint firstItem="MZz-cF-NfH" firstAttribute="centerX" secondItem="yIX-OY-B1L" secondAttribute="centerX" id="fiq-Nm-b88"/>
+                            <constraint firstItem="uOm-jN-rhC" firstAttribute="top" secondItem="MZz-cF-NfH" secondAttribute="bottom" constant="30" id="gT4-yC-Zs4"/>
+                            <constraint firstItem="uOm-jN-rhC" firstAttribute="centerX" secondItem="yIX-OY-B1L" secondAttribute="centerX" id="kfK-X7-uMW"/>
+                            <constraint firstItem="QO7-d7-svP" firstAttribute="bottom" secondItem="5oY-fd-AHi" secondAttribute="bottom" constant="60" id="ubq-4p-GTf"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ybz-M7-Ena" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28" y="169"/>
+        </scene>
+        <!--Nearby Demo View Controller-->
+        <scene sceneID="tYZ-4G-bxQ">
+            <objects>
+                <viewController id="Upq-gh-e6X" customClass="NearbyDemoViewController" customModule="Museum_AR_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <arscnView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="pEM-EL-IFy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </arscnView>
+                    <connections>
+                        <outlet property="sceneView" destination="pEM-EL-IFy" id="enI-A7-qOI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FR5-eP-VSj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1151" y="230"/>
+        </scene>
+        <!--Basic Demo View Controller-->
+        <scene sceneID="KZT-To-SCJ">
+            <objects>
+                <viewController id="5vf-Ft-CrJ" customClass="BasicDemoViewController" customModule="Museum_AR_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <arscnView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="PQA-JZ-m7v">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </arscnView>
+                    <connections>
+                        <outlet property="sceneView" destination="PQA-JZ-m7v" id="pAC-5a-F23"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b0z-dH-jPF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1151" y="938"/>
+        </scene>
+        <!--Coarse Reloc Demo View Controller-->
+        <scene sceneID="obz-s2-p18">
+            <objects>
+                <viewController id="iIA-z0-aWD" customClass="CoarseRelocDemoViewController" customModule="Museum_AR_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pDE-Nv-OO2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jTW-yq-aCK">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                            </arscnView>
+                            <view contentMode="topRight" horizontalHuggingPriority="750" verticalHuggingPriority="750" placeholderIntrinsicWidth="150" placeholderIntrinsicHeight="100" translatesAutoresizingMaskIntoConstraints="NO" id="Ni2-LX-QHi" userLabel="Sensor Status" customClass="SensorStatusView" customModule="Museum_AR_App" customModuleProvider="target">
+                                <rect key="frame" x="264" y="0.0" width="150" height="100"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="JaO-68-O1Y"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="jTW-yq-aCK" firstAttribute="top" secondItem="pDE-Nv-OO2" secondAttribute="top" id="Eby-r0-OZx"/>
+                            <constraint firstItem="Ni2-LX-QHi" firstAttribute="trailing" secondItem="JaO-68-O1Y" secondAttribute="trailing" id="GYP-NJ-qsM"/>
+                            <constraint firstItem="jTW-yq-aCK" firstAttribute="bottom" secondItem="pDE-Nv-OO2" secondAttribute="bottom" id="J48-Lk-idh"/>
+                            <constraint firstItem="jTW-yq-aCK" firstAttribute="trailing" secondItem="pDE-Nv-OO2" secondAttribute="trailing" id="TCr-fy-TLR"/>
+                            <constraint firstItem="jTW-yq-aCK" firstAttribute="leading" secondItem="pDE-Nv-OO2" secondAttribute="leading" id="TTh-FT-wKD"/>
+                            <constraint firstItem="Ni2-LX-QHi" firstAttribute="top" secondItem="JaO-68-O1Y" secondAttribute="top" id="dwG-FI-vuM"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="sceneView" destination="jTW-yq-aCK" id="4nc-ch-5QV"/>
+                        <outlet property="sensorStatusView" destination="Ni2-LX-QHi" id="47o-k7-aeF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dSb-uv-FwC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1150.7246376811595" y="-505.43478260869568"/>
+        </scene>
+    </scenes>
+</document>

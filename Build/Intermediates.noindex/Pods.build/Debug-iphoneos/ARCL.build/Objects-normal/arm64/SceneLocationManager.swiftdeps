@@ -1,0 +1,669 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LocationEstimateMethod"
+- "SceneLocationManagerDelegate"
+- "SceneLocationManager"
+provides-nominal:
+- "4ARCL22LocationEstimateMethodO"
+- "4ARCL28SceneLocationManagerDelegateP"
+- "4ARCL20SceneLocationManagerC"
+provides-member:
+- ["4ARCL22LocationEstimateMethodO", ""]
+- ["4ARCL28SceneLocationManagerDelegateP", ""]
+- ["4ARCL20SceneLocationManagerC", ""]
+- ["4ARCL20SceneLocationManagerC", "run"]
+- ["4ARCL20SceneLocationManagerC", "pause"]
+provides-dynamic-lookup:
+- "addSceneLocationEstimate"
+- "bestLocationEstimate"
+- "currentLocation"
+- "locationEstimateMethod"
+- "locationManager"
+- "locationManagerDidUpdateLocation"
+- "pause"
+- "removeOldLocationEstimates"
+- "run"
+- "sceneLocationDelegate"
+- "sceneLocationEstimates"
+- "updateEstimatesTimer"
+- "updateLocationData"
+depends-top-level:
+- "!"
+- "<"
+- "=="
+- ">"
+- "AnyObject"
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- "CGFloat"
+- "CGPoint"
+- "CLLocation"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "LocationEstimateMethod"
+- "LocationManager"
+- "LocationManagerDelegate"
+- "SCNVector3"
+- "SceneLocationEstimate"
+- "SceneLocationManager"
+- "SceneLocationManagerDelegate"
+- "SceneLocationView"
+- !private "StringLiteralType"
+- "Timer"
+- !private "addSceneLocationEstimate"
+- !private "assertionFailure"
+- !private "bestLocationEstimate"
+- !private "locationEstimateMethod"
+- !private "locationManager"
+- !private "pause"
+- !private "removeOldLocationEstimates"
+- "sceneLocationDelegate"
+- !private "sceneLocationEstimates"
+- !private "updateEstimatesTimer"
+depends-member:
+- ["So9ARSCNViewC", ""]
+- !private ["So9ARSCNViewC", "sceneLimit"]
+- !private ["So17ARSCNViewDelegateP", "sceneLimit"]
+- !private ["So17ARSessionObserverP", ""]
+- !private ["So17ARSessionObserverP", "sceneLimit"]
+- !private ["So18ARSessionProvidingP", "sceneLimit"]
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "append"]
+- !private ["Sa", "filter"]
+- !private ["Sa", "first"]
+- ["Sa", "init"]
+- !private ["Sa", "sorted"]
+- ["SK", ""]
+- !private ["SK", "append"]
+- !private ["SK", "filter"]
+- !private ["SK", "first"]
+- ["SK", "init"]
+- !private ["SK", "sorted"]
+- !private ["SB", "binade"]
+- !private ["SB", "exponentBitCount"]
+- !private ["SB", "exponentBitPattern"]
+- !private ["SB", "init"]
+- !private ["SB", "isTotallyOrdered"]
+- !private ["SB", "radix"]
+- !private ["SB", "significandBitCount"]
+- !private ["SB", "significandBitPattern"]
+- !private ["SB", "significandWidth"]
+- !private ["So15CALayerDelegateP", "sceneLimit"]
+- !private ["12CoreGraphics7CGFloatV", "init"]
+- !private ["So7CGPointV", "pointWithVector"]
+- !private ["So7CGPointV", "radiusContainsPoint"]
+- !private ["So10CLLocationC", "horizontalAccuracy"]
+- !private ["So10CLLocationC", "timestamp"]
+- !private ["So25CLLocationManagerDelegateP", "currentLocation"]
+- !private ["So25CLLocationManagerDelegateP", "delegate"]
+- ["So25CLLocationManagerDelegateP", "init"]
+- !private ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "currentLocation"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "filter"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "horizontalAccuracy"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "invalidate"]
+- !private ["s7CVarArgP", "sceneLimit"]
+- !private ["s7CVarArgP", "scheduledTimer"]
+- !private ["s7CVarArgP", "sorted"]
+- !private ["s7CVarArgP", "timestamp"]
+- ["Sl", ""]
+- !private ["Sl", "append"]
+- !private ["Sl", "filter"]
+- !private ["Sl", "first"]
+- ["Sl", "init"]
+- !private ["Sl", "sorted"]
+- ["SL", ""]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "filter"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "sorted"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "currentLocation"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "horizontalAccuracy"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "invalidate"]
+- !private ["s28CustomDebugStringConvertibleP", "pointWithVector"]
+- !private ["s28CustomDebugStringConvertibleP", "radiusContainsPoint"]
+- !private ["s28CustomDebugStringConvertibleP", "sceneLimit"]
+- !private ["s28CustomDebugStringConvertibleP", "scheduledTimer"]
+- !private ["s28CustomDebugStringConvertibleP", "sorted"]
+- !private ["s28CustomDebugStringConvertibleP", "timestamp"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "filter"]
+- !private ["s17CustomReflectableP", "first"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "pointWithVector"]
+- !private ["s17CustomReflectableP", "radiusContainsPoint"]
+- !private ["s17CustomReflectableP", "sorted"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "currentLocation"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "horizontalAccuracy"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "invalidate"]
+- !private ["s23CustomStringConvertibleP", "sceneLimit"]
+- !private ["s23CustomStringConvertibleP", "scheduledTimer"]
+- !private ["s23CustomStringConvertibleP", "sorted"]
+- !private ["s23CustomStringConvertibleP", "timestamp"]
+- ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "filter"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "sorted"]
+- !private ["Se", "append"]
+- !private ["Se", "filter"]
+- !private ["Se", "first"]
+- ["Se", "init"]
+- !private ["Se", "pointWithVector"]
+- !private ["Se", "radiusContainsPoint"]
+- !private ["Se", "sorted"]
+- !private ["SE", "append"]
+- !private ["SE", "filter"]
+- !private ["SE", "first"]
+- ["SE", "init"]
+- !private ["SE", "pointWithVector"]
+- !private ["SE", "radiusContainsPoint"]
+- !private ["SE", "sorted"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "append"]
+- !private ["SQ", "coreLocationDataOnly"]
+- !private ["SQ", "currentLocation"]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "filter"]
+- !private ["SQ", "first"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "horizontalAccuracy"]
+- ["SQ", "init"]
+- !private ["SQ", "invalidate"]
+- ["SQ", "mostRelevantEstimate"]
+- !private ["SQ", "pointWithVector"]
+- !private ["SQ", "radiusContainsPoint"]
+- !private ["SQ", "sceneLimit"]
+- !private ["SQ", "scheduledTimer"]
+- !private ["SQ", "sorted"]
+- !private ["SQ", "timestamp"]
+- ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "filter"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "sorted"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s25ExpressibleByFloatLiteralP", ""]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["SF", "*"]
+- !private ["SF", "*="]
+- !private ["SF", "+"]
+- !private ["SF", "+="]
+- !private ["SF", "-"]
+- !private ["SF", "-="]
+- !private ["SF", "/"]
+- !private ["SF", "/="]
+- !private ["SF", ""]
+- !private ["SF", "addProduct"]
+- !private ["SF", "addingProduct"]
+- !private ["SF", "exponent"]
+- !private ["SF", "floatingPointClass"]
+- !private ["SF", "formRemainder"]
+- !private ["SF", "formSquareRoot"]
+- !private ["SF", "formTruncatingRemainder"]
+- !private ["SF", "greatestFiniteMagnitude"]
+- !private ["SF", "infinity"]
+- !private ["SF", "init"]
+- !private ["SF", "isCanonical"]
+- !private ["SF", "isEqual"]
+- !private ["SF", "isFinite"]
+- !private ["SF", "isInfinite"]
+- !private ["SF", "isLess"]
+- !private ["SF", "isLessThanOrEqualTo"]
+- !private ["SF", "isNaN"]
+- !private ["SF", "isNormal"]
+- !private ["SF", "isSignalingNaN"]
+- !private ["SF", "isSubnormal"]
+- !private ["SF", "isTotallyOrdered"]
+- !private ["SF", "isZero"]
+- !private ["SF", "leastNonzeroMagnitude"]
+- !private ["SF", "leastNormalMagnitude"]
+- !private ["SF", "maximum"]
+- !private ["SF", "maximumMagnitude"]
+- !private ["SF", "minimum"]
+- !private ["SF", "minimumMagnitude"]
+- !private ["SF", "nan"]
+- !private ["SF", "negate"]
+- !private ["SF", "nextDown"]
+- !private ["SF", "nextUp"]
+- !private ["SF", "pi"]
+- !private ["SF", "radix"]
+- !private ["SF", "remainder"]
+- !private ["SF", "round"]
+- !private ["SF", "rounded"]
+- !private ["SF", "sign"]
+- !private ["SF", "signalingNaN"]
+- !private ["SF", "significand"]
+- !private ["SF", "squareRoot"]
+- !private ["SF", "truncatingRemainder"]
+- !private ["SF", "ulp"]
+- !private ["SF", "ulpOfOne"]
+- ["SH", "=="]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "append"]
+- !private ["SH", "coreLocationDataOnly"]
+- !private ["SH", "currentLocation"]
+- !private ["SH", "delegate"]
+- !private ["SH", "filter"]
+- !private ["SH", "first"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "horizontalAccuracy"]
+- ["SH", "init"]
+- !private ["SH", "invalidate"]
+- ["SH", "mostRelevantEstimate"]
+- !private ["SH", "sceneLimit"]
+- !private ["SH", "scheduledTimer"]
+- !private ["SH", "sorted"]
+- !private ["SH", "timestamp"]
+- !private ["s6HasherV", "combine"]
+- ["4ARCL22LocationEstimateMethodO", "=="]
+- ["4ARCL22LocationEstimateMethodO", ""]
+- ["4ARCL22LocationEstimateMethodO", "__derived_enum_equals"]
+- ["4ARCL22LocationEstimateMethodO", "_rawHashValue"]
+- ["4ARCL22LocationEstimateMethodO", "coreLocationDataOnly"]
+- ["4ARCL22LocationEstimateMethodO", "hash"]
+- ["4ARCL22LocationEstimateMethodO", "hashValue"]
+- ["4ARCL22LocationEstimateMethodO", "mostRelevantEstimate"]
+- !private ["4ARCL15LocationManagerC", "currentLocation"]
+- !private ["4ARCL15LocationManagerC", "delegate"]
+- ["4ARCL15LocationManagerC", "init"]
+- !private ["4ARCL23LocationManagerDelegateP", "CGFloat"]
+- !private ["4ARCL23LocationManagerDelegateP", "CGPoint"]
+- ["4ARCL23LocationManagerDelegateP", "LocationManager"]
+- ["4ARCL23LocationManagerDelegateP", "SceneLocationEstimate"]
+- !private ["4ARCL23LocationManagerDelegateP", "SceneLocationView"]
+- !private ["4ARCL23LocationManagerDelegateP", "Timer"]
+- ["4ARCL23LocationManagerDelegateP", ""]
+- !private ["4ARCL23LocationManagerDelegateP", "addSceneLocationEstimate"]
+- !private ["4ARCL23LocationManagerDelegateP", "assertionFailure"]
+- !private ["4ARCL23LocationManagerDelegateP", "bestLocationEstimate"]
+- !private ["4ARCL23LocationManagerDelegateP", "locationEstimateMethod"]
+- !private ["4ARCL23LocationManagerDelegateP", "locationManager"]
+- ["4ARCL23LocationManagerDelegateP", "locationManagerDidUpdateHeading"]
+- ["4ARCL23LocationManagerDelegateP", "locationManagerDidUpdateLocation"]
+- !private ["4ARCL23LocationManagerDelegateP", "pause"]
+- !private ["4ARCL23LocationManagerDelegateP", "removeOldLocationEstimates"]
+- !private ["4ARCL23LocationManagerDelegateP", "sceneLocationDelegate"]
+- !private ["4ARCL23LocationManagerDelegateP", "sceneLocationEstimates"]
+- !private ["4ARCL23LocationManagerDelegateP", "updateEstimatesTimer"]
+- !private ["4ARCL23LocationManagerDelegateP", "updateLocationData"]
+- ["s25LosslessStringConvertibleP", ""]
+- ["SM", ""]
+- !private ["SM", "append"]
+- !private ["SM", "filter"]
+- !private ["SM", "first"]
+- ["SM", "init"]
+- !private ["SM", "sorted"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "filter"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "sorted"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "horizontalAccuracy"]
+- !private ["So8NSCodingP", "sceneLimit"]
+- !private ["So8NSCodingP", "timestamp"]
+- ["So9NSCopyingP", ""]
+- !private ["So9NSCopyingP", "horizontalAccuracy"]
+- !private ["So9NSCopyingP", "timestamp"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "currentLocation"]
+- !private ["So8NSObjectC", "delegate"]
+- !private ["So8NSObjectC", "horizontalAccuracy"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "invalidate"]
+- !private ["So8NSObjectC", "sceneLimit"]
+- !private ["So8NSObjectC", "scheduledTimer"]
+- !private ["So8NSObjectC", "scheduledTimerWithTimeInterval"]
+- !private ["So8NSObjectC", "timestamp"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "currentLocation"]
+- !private ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "horizontalAccuracy"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "invalidate"]
+- !private ["So8NSObjectP", "sceneLimit"]
+- !private ["So8NSObjectP", "scheduledTimer"]
+- !private ["So8NSObjectP", "scheduledTimerWithTimeInterval"]
+- !private ["So8NSObjectP", "timestamp"]
+- !private ["So14NSSecureCodingP", "horizontalAccuracy"]
+- !private ["So14NSSecureCodingP", "timestamp"]
+- !private ["Sj", "*"]
+- !private ["Sj", "*="]
+- !private ["Sj", ""]
+- !private ["Sj", "init"]
+- !private ["Sj", "magnitude"]
+- ["Sk", ""]
+- !private ["Sk", "append"]
+- !private ["Sk", "filter"]
+- !private ["Sk", "first"]
+- ["Sk", "init"]
+- !private ["Sk", "sorted"]
+- ["Sm", ""]
+- !private ["Sm", "append"]
+- !private ["Sm", "filter"]
+- !private ["Sm", "first"]
+- ["Sm", "init"]
+- !private ["Sm", "sorted"]
+- !private ["So16SCNSceneRendererP", "sceneLimit"]
+- !private ["So24SCNSceneRendererDelegateP", ""]
+- !private ["So24SCNSceneRendererDelegateP", "sceneLimit"]
+- !private ["So19SCNTechniqueSupportP", "sceneLimit"]
+- ["So7SCNViewC", ""]
+- !private ["So7SCNViewC", "sceneLimit"]
+- !private ["4ARCL21SceneLocationEstimateC", "init"]
+- !private ["4ARCL21SceneLocationEstimateC", "location"]
+- !private ["4ARCL21SceneLocationEstimateC", "position"]
+- !private ["4ARCL21SceneLocationEstimateC", "translatedLocation"]
+- !private ["4ARCL20SceneLocationManagerC", "CGFloat"]
+- !private ["4ARCL20SceneLocationManagerC", "CGPoint"]
+- ["4ARCL20SceneLocationManagerC", "CLLocation"]
+- ["4ARCL20SceneLocationManagerC", "LocationEstimateMethod"]
+- ["4ARCL20SceneLocationManagerC", "LocationManager"]
+- ["4ARCL20SceneLocationManagerC", "SCNVector3"]
+- ["4ARCL20SceneLocationManagerC", "SceneLocationEstimate"]
+- ["4ARCL20SceneLocationManagerC", "SceneLocationManagerDelegate"]
+- !private ["4ARCL20SceneLocationManagerC", "SceneLocationView"]
+- ["4ARCL20SceneLocationManagerC", "Timer"]
+- ["4ARCL20SceneLocationManagerC", ""]
+- ["4ARCL20SceneLocationManagerC", "addSceneLocationEstimate"]
+- !private ["4ARCL20SceneLocationManagerC", "assertionFailure"]
+- ["4ARCL20SceneLocationManagerC", "bestLocationEstimate"]
+- ["4ARCL20SceneLocationManagerC", "currentLocation"]
+- ["4ARCL20SceneLocationManagerC", "deinit"]
+- ["4ARCL20SceneLocationManagerC", "init"]
+- ["4ARCL20SceneLocationManagerC", "locationEstimateMethod"]
+- ["4ARCL20SceneLocationManagerC", "locationManager"]
+- ["4ARCL20SceneLocationManagerC", "locationManagerDidUpdateHeading"]
+- ["4ARCL20SceneLocationManagerC", "locationManagerDidUpdateLocation"]
+- ["4ARCL20SceneLocationManagerC", "pause"]
+- ["4ARCL20SceneLocationManagerC", "removeOldLocationEstimates"]
+- ["4ARCL20SceneLocationManagerC", "run"]
+- ["4ARCL20SceneLocationManagerC", "sceneLocationDelegate"]
+- ["4ARCL20SceneLocationManagerC", "sceneLocationEstimates"]
+- ["4ARCL20SceneLocationManagerC", "updateEstimatesTimer"]
+- ["4ARCL20SceneLocationManagerC", "updateLocationData"]
+- ["4ARCL28SceneLocationManagerDelegateP", "CLLocation"]
+- ["4ARCL28SceneLocationManagerDelegateP", "SCNVector3"]
+- ["4ARCL28SceneLocationManagerDelegateP", "confirmLocationOfDistantLocationNodes"]
+- ["4ARCL28SceneLocationManagerDelegateP", "didAddSceneLocationEstimate"]
+- ["4ARCL28SceneLocationManagerDelegateP", "didRemoveSceneLocationEstimate"]
+- !private ["4ARCL28SceneLocationManagerDelegateP", "sceneLimit"]
+- ["4ARCL28SceneLocationManagerDelegateP", "scenePosition"]
+- ["4ARCL28SceneLocationManagerDelegateP", "updatePositionAndScaleOfLocationNodes"]
+- !private ["4ARCL17SceneLocationViewC", "sceneLimit"]
+- ["ST", ""]
+- !private ["ST", "append"]
+- !private ["ST", "filter"]
+- !private ["ST", "first"]
+- ["ST", "init"]
+- !private ["ST", "sorted"]
+- !private ["s13SignedNumericP", "-"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", ""]
+- !private ["Sx", "init"]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
+- !private ["So7NSTimerC", "invalidate"]
+- !private ["So7NSTimerC", "scheduledTimer"]
+- !private ["So29UIAccessibilityIdentificationP", "sceneLimit"]
+- !private ["So12UIAppearanceP", "sceneLimit"]
+- !private ["So21UIAppearanceContainerP", "sceneLimit"]
+- !private ["So17UICoordinateSpaceP", "sceneLimit"]
+- !private ["So13UIDynamicItemP", "sceneLimit"]
+- !private ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "sceneLimit"]
+- !private ["So11UIFocusItemP", "sceneLimit"]
+- !private ["So20UIFocusItemContainerP", "sceneLimit"]
+- !private ["So24UILargeContentViewerItemP", "sceneLimit"]
+- !private ["So30UIPasteConfigurationSupportingP", "sceneLimit"]
+- ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "sceneLimit"]
+- !private ["So30UIResponderStandardEditActionsP", "sceneLimit"]
+- !private ["So18UITraitEnvironmentP", "sceneLimit"]
+- !private ["So23UIUserActivityRestoringP", "sceneLimit"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "sceneLimit"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "filter"]
+- !private ["s14_ArrayProtocolP", "first"]
+- ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "sorted"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "pointWithVector"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "radiusContainsPoint"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "filter"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "sorted"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "filter"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "sorted"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "filter"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "sorted"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentLocation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "horizontalAccuracy"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "invalidate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sceneLimit"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scheduledTimer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timestamp"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "currentLocation"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "horizontalAccuracy"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "invalidate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sceneLimit"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scheduledTimer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "timestamp"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "filter"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "pointWithVector"]
+- !private ["s21_ObjectiveCBridgeableP", "radiusContainsPoint"]
+- !private ["s21_ObjectiveCBridgeableP", "sorted"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "sceneLimit"]
+depends-nominal:
+- "So9ARSCNViewC"
+- !private "So17ARSCNViewDelegateP"
+- !private "So17ARSessionObserverP"
+- !private "So18ARSessionProvidingP"
+- !private "s18AdditiveArithmeticP"
+- "Sa"
+- "SK"
+- !private "SB"
+- !private "So15CALayerDelegateP"
+- !private "12CoreGraphics7CGFloatV"
+- !private "So7CGPointV"
+- !private "So10CLLocationC"
+- "So25CLLocationManagerDelegateP"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation12DataProtocolP"
+- "Se"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SF"
+- "SH"
+- !private "s6HasherV"
+- "4ARCL22LocationEstimateMethodO"
+- "4ARCL15LocationManagerC"
+- "4ARCL23LocationManagerDelegateP"
+- "s25LosslessStringConvertibleP"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sj"
+- "Sk"
+- "Sm"
+- !private "So16SCNSceneRendererP"
+- !private "So24SCNSceneRendererDelegateP"
+- !private "So19SCNTechniqueSupportP"
+- "So7SCNViewC"
+- !private "4ARCL21SceneLocationEstimateC"
+- "4ARCL20SceneLocationManagerC"
+- "4ARCL28SceneLocationManagerDelegateP"
+- !private "4ARCL17SceneLocationViewC"
+- "ST"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So7NSTimerC"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So24UILargeContentViewerItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreMIDI.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreML.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ModelIO.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreMedia.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/simd.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Vision.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreLocation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/AVFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreAudio.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/GLKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ARKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SceneKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SpriteKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/MapKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/ppeltekis/Desktop/iOS Projects/e-Scapani/Museum AR App/Pods/Headers/Public/ARCL/ARCL-umbrella.h"
+- "/Users/ppeltekis/Desktop/iOS Projects/e-Scapani/Museum AR App/Pods/Headers/Public/ARCL/ARCL.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreML.framework/Headers/CoreML.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QuickLook.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Vision.framework/Headers/Vision.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/SpriteKit.framework/Headers/SpriteKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "2749ab3954043491d6c7fbcd4ae2f909"
